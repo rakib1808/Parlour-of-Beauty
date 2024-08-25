@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Delues Rooms The Resort</title>
+    <title class="tooltip" data-tip="Delues Copule Rooms The Resort"> Delues Copule Rooms The Resort</title>
     <link rel="icon" type="image/x-icon" href="">
 
     <!-- tailwindcss instaling -->
@@ -60,9 +60,9 @@
                     <ul class="font-semibold text-gray-700 text-center font-mono">
                         <li class="hover:text-orange-400"><a href="index.html">Home</a></li>
                         <li class="hover:text-orange-400 max-sm:mt-2 max-sm:mb-2"><a href="rooms.html">Rooms</a></li>
-                        <li class="hover:text-orange-400"><a href="">Facilities</a></li>
-                        <li class="hover:text-orange-400 max-sm:mt-2 max-sm:mb-2"><a href="">Gallery</a></li>
-                        <li class="hover:text-orange-400"><a href="">CONTACT US</a></li>
+                        <li class="hover:text-orange-400"><a href="facilities.html">Facilities</a></li>
+                        <li class="hover:text-orange-400 max-sm:mt-2 max-sm:mb-2"><a href="gallery.html">Gallery</a></li>
+                        <li class="hover:text-orange-400"><a href="contactUs.html">CONTACT US</a></li>
                     </ul>
                 </div>
                 <div class="flex mt-2 font-semibold justify-around font-mono">
@@ -70,7 +70,7 @@
                         <p><a href="login.html">Login</a></p>
                    </div>
                     <div class="link-hover hover:text-orange-400">
-                        <p><a href="SingUp.html">Sing Up</a></p>
+                        <p><a href="singUp.html">Sing Up</a></p>
                     </div>
                 </div>
             </div>
@@ -113,7 +113,7 @@
                         </div>
                         <a href="">
                             <div>
-                                <h2 class="link-hover font-serif">0173-10000</h2>
+                                <h2 class="link-hover font-serif " >0173- <span class="text-blue-500">10</span>000</h2>
                             </div>
                         </a>
                     </div>
@@ -124,7 +124,7 @@
                             <p class="link-hover">Login</p>
                         </div>
                     </a>
-                   <a href="">
+                   <a href="singUp.html">
                         <div>
                             <p class="link-hover">Sing Up</p>
                         </div>
@@ -140,9 +140,9 @@
                     <ul class="lg:flex gap-16 font-semibold text-white xl:mt-20 sm:mt-6 md:mt-4 lg:mt-10 font-serif">
                         <a class="hover:border-b hover:border-orange-300" href="index.html"><li>Home</li></a>
                         <a class="hover:border-b hover:border-orange-300" href="rooms.html"><li>Rooms</li></a>
-                        <a class="hover:border-b hover:border-orange-300" href=""><li>Facilities</li></a>
-                        <a class="hover:border-b hover:border-orange-300" href=""><li>Gallery</li></a>
-                        <a class="hover:border-b hover:border-orange-300" href=""><li>CONTACT US</li></a>
+                        <a class="hover:border-b hover:border-orange-300" href="facilities.html"><li>Facilities</li></a>
+                        <a class="hover:border-b hover:border-orange-300" href="gallery.html"><li>Gallery</li></a>
+                        <a class="hover:border-b hover:border-orange-300" href="contactUs.html"><li>CONTACT US</li></a>
                     </ul>
                 </div>
                 <div class="xl:mt-14 lg:mt-6 mt-4">
@@ -192,7 +192,7 @@
                         <dialog id="my_modal_1" class="">
                           <div class=" max-sm:modal-box ">
                             <form method="dialog">
-                              <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 border-2 border-white bg-white">✕</button>
+                              <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 border-2 border-white bg-white ">✕</button>
                             </form>
                             <img class="xl:h-[550px] xl:w-[1200px]" src="./images/view resor1.jpg" alt="">
                           </div>
@@ -319,7 +319,7 @@
             </div>
             <div class="flex gap-1 items-center">
                 <div>
-                    <img class="h-4" src="./images/mail footer.png" alt="">
+                    <img class="h-3" src="./images/mail footer.png" alt="">
                 </div>
                 <div>
                     <h2 class="link link-hover"><a href="mailto:resort@gmail.com">resort@gmail.com</a></h2>
@@ -327,7 +327,7 @@
             </div>
             <div class="flex items-center">
                 <div>
-                    <img class=" w-6" src="./images/call black of footer.png" alt="">
+                    <img class=" h-6" src="./images/call black of footer.png" alt="">
                 </div>
                 <div>
                     <h2 class="link link-hover"><a href="">0173-10550</a></h2>
@@ -355,12 +355,12 @@
 
     <div class="border mt-10 mb-6 border-gray-300"></div>
 
-    <div class="flex justify-between px-16 font-mono">
-        <div class="link link-hover" href="RefundPolice.html">Refund Policy</div>
-        <div class="link link-hover" href="PrivacyPolicy.html">Privacy Policy</div>
-        <div class="link link-hover" href="ConditionsofUse.html">Conditions of Use</div>
-        <div class="link link-hover" href="aboutUs.html">about Us</div>
-        <div class="link link-hover" href="ContactUs.html">Contact Us</div>
+    <div class="xl:flex lg:flex md:flex justify-between xl:px-16 lg:px-16 md:px-16 font-mono">
+        <a href="RefundPolicy.html"><div class="link-hover">Refund Policy</div></a>
+        <a href="PrivacyPolicy.html"><div class="link-hover">Privacy Policy</div></a>
+        <a href="ConditionOfUse.html"><div class="link-hover">Conditions of Use</div></a>
+        <a href="AboutUs.html"><div class="link-hover">about Us</div></a>
+        <a href="contactUs.html"><div class="link-hover">Contact Us</div></a>
     </div>
     <div>
         <p class="mt-16 text-center text-gray-300">@all rights reserved, The RH_Resort.2024</p>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title class="tooltip" data-tip="Rooms The Resort"> Rooms The Resort</title>
+    <title class="tooltip" data-tip="Family Suite Room The Resort"> Family Suite Room The Resort</title>
     <link rel="icon" type="image/x-icon" href="">
 
     <!-- tailwindcss instaling -->
@@ -13,7 +13,7 @@
 
 </head>
 <body>
-    <main class="bg-cover h-[100%] bg-center text-center" style="background-image: url(./images/rooms\ banner.jpg);" >
+    <main class="bg-cover h-[100%] bg-center text-center" style="background-image: url(./images/baner1.jpg);" >
         <!-- small device nav secetion start -->
         <nav class="md:hidden lg:hidden sm:hidden">
             <div class="flex justify-around p-2">
@@ -89,6 +89,7 @@
                 <button class="btn border-orange-300 text-white text-xl mt-4 bg-[rgba(0,0,0,0.4)] hover:border-white hover:text-black hover:bg-[rgba(0,0,0,0.0)] w-44 tooltip" data-tip="click Here">Discover More</button>
             </a>
         </div>
+
         </nav>
         <!-- small device navbar end -->
 
@@ -151,9 +152,9 @@
                 </div>
             </div>
             <div>
-                <h2 class="sm:text-4xl md:text-4xl lg:mt-16 lg:text-6xl xl:text-8xl xl:text-gray-300 text-white">Dive into Paradise: Your<br> Seaside Heaven <br> Awaits</h2>
+                <h2 class="sm:text-4xl md:text-4xl lg:mt-16 lg:text-6xl xl:text-8xl text-white">Dive into Paradise: Your<br> Seaside Heaven <br> Awaits</h2>
                 <a href="rooms.html">
-                    <button class="btn border-orange-300 text-white text-xl mt-4 mb-6 bg-[rgba(0,0,0,0.4)] hover:border-white hover:text-black hover:bg-[rgba(0,0,0,0.0)] w-44 tooltip" data-tip="click Here">Discover More</button>
+                    <button class="btn border-orange-300 text-white text-xl xl:mt-10 mt-4 mb-6 bg-[rgba(0,0,0,0.4)] hover:border-white hover:text-black hover:bg-[rgba(0,0,0,0.0)] w-44 tooltip" data-tip="click Here">Discover More</button>
                 </a>
             </div>
         </nav>
@@ -161,47 +162,92 @@
          <!-- nav secetion end -->
     </main>
 
-    <section class="px-24 mb-10">
-        <div class="py-16">
-            <p class=" text-2xl font-mono mt-10">Luxury is redefined in our unique stay alternative.</p>
-            <h3 class="text-6xl mt-10 font-serif">Rooms and accommodations</h3>
+    <section class="px-4 xl:px-10 lg:px-10 md:px-10 sm:px-10">
+        <div class="xl:py-16 lg:py-16 md:py-16 sm:py-16 max-sm:text-center sm:text-center">
+            <h3 class="text-4xl mt-10 font-serif">Family Suite</h3>
+            <p class=" text-xl font-mono mt-10 max-sm:mt-6 max-sm:mb-6">Hotel: THE RESORT LTD.</p>
         </div>
 
-        <div class=" xl:grid grid-cols-12 gap-10">
-            <div class="col-span-4  bg-orange-50 p-4 rounded-2xl drop-shadow-xl">
-                <div class="max-w-xs overflow-hidden rounded-2xl drop-shadow-xl border-2 border-white">
-                    <img class="items-center xl:h-72 rounded-xl object-cover transition duration-500 hover:scale-110" src="./images/room1.jpg" alt="">
+        <div class="gap-10 xl:flex lg:flex md:flex xl:px-10 lg:px-10 md:px-10 sm:px-10">
+            <div>
+                <div class="flex justify-around mb-4 font-serif">
+                    <div>
+                        <p>Beds: 1 or 2</p>
+                    </div>
+                    <div>
+                        <p>Audltis: 2-4</p>
+                    </div>
+                    <div>
+                        <p>Children: 1-2</p>
+                    </div>
                 </div>
-                <div class="mt-6">
-                    <h3 class="text-4xl text-center text-gray-500 font-semibold font-serif">Deluxe Couple</h3>
-                    <p class="text-gray-700 mt-6 font-mono">The classic style emphasizes balance, proportion and harmony, resulting in rooms that feel cohesive and inviting. The use of traditional architectural elements such as crown molding, Ceiling medallions and glass cladding ...</p>
-                    <a href="deluexCopule.html">
-                        <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 tooltip xl:mt-6 mt-4 font-serif" data-tip="click Here">Book This Room</button>
-                    </a>
+                <div>
+                    <img class="xl:h-[500px] w-[1000px] mb-6" src="./images/room2.jpg " alt="">
+                </div>
+                <!-- from daisyui -->
+                 <!-- You can open the modal using ID.showModal() method -->
+                <div class="px-20 max-sm:px-10 flex gap-6">
+                    <div>
+                        <button class="xl:border-8 border-gray-400" onclick="my_modal_1.showModal()"><img class="w-96 object-cover transition duration-500 hover:scale-110 cursor-pointer" src="./images/img.jpg" alt=""></button>
+                        <dialog id="my_modal_1" class="">
+                          <div class=" max-sm:modal-box ">
+                            <form method="dialog">
+                              <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 border-2 border-white bg-white ">✕</button>
+                            </form>
+                            <img class="xl:h-[550px] xl:w-[1250px]" src="./images/img.jpg" alt="">
+                          </div>
+                        </dialog>
+                    </div>
+                    <div>
+                        <button class="xl:border-8 border-gray-400" onclick="my_modal_2.showModal()"><img class="w-96 object-cover transition duration-500 hover:scale-110 cursor-pointer" src="./images/deluxe stand.jpg" alt=""></button>
+                        <dialog id="my_modal_2" class="">
+                          <div class=" max-sm:modal-box ">
+                            <form method="dialog">
+                              <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 border-2 border-white bg-white">✕</button>
+                            </form>
+                            <img class="xl:h-[550px] xl:w-[1200px]" src="./images/deluxe stand.jpg" alt="">
+                          </div>
+                        </dialog>
+                    </div>
+                    <div>
+                        <button class="xl:border-8 border-gray-400" onclick="my_modal_3.showModal()"><img class="w-96 object-cover transition duration-500 hover:scale-110 cursor-pointer" src="./images/restaurents.jpeg" alt=""></button>
+                        <dialog id="my_modal_3" class="">
+                          <div class=" max-sm:modal-box ">
+                            <form method="dialog">
+                              <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 border-2 border-white bg-white">✕</button>
+                            </form>
+                            <img class="xl:h-[550px] xl:w-[1200px]" src="./images/restaurents.jpeg" alt="">
+                          </div>
+                        </dialog>
+                    </div>
+                </div>
+                <div class="mt-10 mb-10">
+                    <h3 class="font-mono font-semibold text-2xl">Description</h3>
+                    <p class="text-lg font-serif mt-4">This 300 sqft spacious room features a master bed, air conditioning, a minibar, a flat-screen TV, a tea and coffee maker, a wardrobe, a safe deposit box, and a private bathroom with a shower and slippers. It offers one comfortable bed, perfect for couples or solo travelers seeking extra space. Complimentary breakfast for 2 adults and 1 children.</p>
                 </div>
             </div>
-            <div class="col-span-4 bg-orange-50 rounded-2xl p-4 drop-shadow-xl">
-                <div class="max-w-xs overflow-hidden rounded-2xl drop-shadow-xl border-2 border-white">
-                    <img class="xl:h-72 rounded-xl object-cover transition duration-500 hover:scale-110" src="./images/room2.jpg" alt="">
-                </div>
-                <div class="mt-6">
-                    <h3 class="text-4xl text-center text-gray-500 font-semibold font-serif">Family Suite</h3>
-                    <p class="text-gray-700 mt-6 font-mono">In addition to improving concentration and productivity, being well rested has been shown to benefit immune function, mental health, and even help weight loss, a type of heart-healthy fat that can decrease inflammation and ...</p>
-                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 tooltip xl:mt-6 mt-4 font-serif" data-tip="click Here" ><a href="familySuite.html">Book This Room</a></button>
-                </div>
-            </div>
-            <div class="col-span-4 bg-orange-50 rounded-2xl p-4 drop-shadow-xl">
-                <div class="max-w-xs overflow-hidden rounded-2xl drop-shadow-xl border-2 border-white">
-                    <img class="xl:h-72 rounded-xl object-cover transition duration-500 hover:scale-110" src="./images/room3.jpg" alt="">
-                </div>
-                <div class="mt-6">
-                    <h3 class="text-4xl text-center text-gray-500 font-semibold font-serif">Deluxe Standard</h3>
-                    <p class="text-gray-700 mt-6 font-mono">Deluxe rooms are typically more spacious than standard rooms, providing extra space to move around and relax. They often come with larger beds, premium bedding, and better-quality furniture to ensure a comfortable stay...</p>
-                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 tooltip xl:mt-6 mt-4 font-serif" data-tip="click Here"><a href="deluxeStandard.html">Book This Room</a></button>
+        
+            <div class="bg-orange-50 mt-10 xl:h-[450px] lg:h-[450px] md:h-[450px] xl:w-[300px] lg:w-[300px] md:w-[300px] border border-gray-400 drop-shadow-xl max-sm:mb-10 sm:mb-10">
+                <div>
+                    <p class="bg-gray-500 text-white font-mono text-center py-2">From <span class="font-serif text-xl font-semibold">15,000</span>/ night</p>
+                    <div class="px-5">
+                        <p class="mt-4 mb-4">Check In - Out</p>
+                        <p>02:00PM to 02:00PM</p>
+                        <input class="mt-4 mb-6 px-2 py-1 outline-none" type="date" name="" id="date">
+                        <div class="border border-gray-300"></div>
+                        <p class="mt-4 mb-2 text-gray-500 font-semibold">Guest </p>
+                        <p>2 Adult - 1 Children</p>
+                        <p class="mt-4 mb-2">Guest Name *</p>
+                        <input class="font-mono border-b p-1 border-gray-400 outline-none" type="Name" placeholder="Guest Name">
+                        <a href="login.html">
+                            <button class="btn border-orange-300 border-b-2 text-white text-xl mt-6 bg-[rgba(0,0,0,0.4)] hover:border-gray-500 hover:text-black hover:bg-white w-44 tooltip max-sm:mb-4" data-tip="click Here">Book Now</button>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
 
     <section>
         <!-- map section start -->

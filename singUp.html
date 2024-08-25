@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title class="tooltip" data-tip="Rooms The Resort"> Rooms The Resort</title>
+    <title>Sing Up The Resort</title>
     <link rel="icon" type="image/x-icon" href="">
 
     <!-- tailwindcss instaling -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-
+    
 </head>
+    
 <body>
-    <main class="bg-cover h-[100%] bg-center text-center" style="background-image: url(./images/rooms\ banner.jpg);" >
+    <!-- sing up section start -->
+    <main class="bg-cover text-white max-sm:mb-10" style="background-image: url(./images/view\ resort3.jpg);">
         <!-- small device nav secetion start -->
-        <nav class="md:hidden lg:hidden sm:hidden">
+        <nav class="md:hidden lg:hidden sm:hidden px-6">
             <div class="flex justify-around p-2">
                 <div>
                     <img src="./imge/logo.png" alt="">
@@ -89,6 +92,7 @@
                 <button class="btn border-orange-300 text-white text-xl mt-4 bg-[rgba(0,0,0,0.4)] hover:border-white hover:text-black hover:bg-[rgba(0,0,0,0.0)] w-44 tooltip" data-tip="click Here">Discover More</button>
             </a>
         </div>
+
         </nav>
         <!-- small device navbar end -->
 
@@ -112,7 +116,7 @@
                         </div>
                         <a href="">
                             <div>
-                                <h2 class="link-hover font-serif">0173-10000</h2>
+                                <h2 class="link-hover font-serif " >0173-10000</h2>
                             </div>
                         </a>
                     </div>
@@ -136,75 +140,64 @@
                     <img class="sm:w-60" src="./imge/logo.png" alt="">
                 </div>
                 <div>
-                    <ul class="lg:flex gap-16 font-semibold text-white xl:mt-20 sm:mt-6 md:mt-4 lg:mt-10 font-serif">
-                        <a class="hover:border-b hover:border-orange-300" href="index.html"><li>Home</li></a>
-                        <a class="hover:border-b hover:border-orange-300" href="rooms.html"><li>Rooms</li></a>
-                        <a class="hover:border-b hover:border-orange-300" href="facilities.html"><li>Facilities</li></a>
-                        <a class="hover:border-b hover:border-orange-300" href="gallery.html"><li>Gallery</li></a>
-                        <a class="hover:border-b hover:border-orange-300" href="contactUs.html"><li>CONTACT US</li></a>
+                    <ul class="lg:flex gap-16 font-semibold text-white xl:mt-14 sm:mt-6 md:mt-4 lg:mt-10 font-serif">
+                        <a href="index.html"><li>Home</li></a>
+                        <a href="rooms.html"><li>Rooms</li></a>
+                        <a href="facilities.html"><li>Facilities</li></a>
+                        <a href="gallery.html"><li>Gallery</li></a>
+                        <a href="contactUs.html"><li>CONTACT US</li></a>
                     </ul>
                 </div>
-                <div class="xl:mt-14 lg:mt-6 mt-4">
+                <div class="xl:mt-8 lg:mt-6 mt-4">
                     <a href="rooms.html">
                         <button class="btn border-orange-300 text-white bg-[rgba(0,0,0,0.2)]  hover:border-white hover:text-black hover:bg-[rgba(0,0,0,0.0)] tooltip" data-tip="click Here">Book Now</button>
                     </a>
                 </div>
             </div>
-            <div>
-                <h2 class="sm:text-4xl md:text-4xl lg:mt-16 lg:text-6xl xl:text-8xl xl:text-gray-300 text-white">Dive into Paradise: Your<br> Seaside Heaven <br> Awaits</h2>
-                <a href="rooms.html">
-                    <button class="btn border-orange-300 text-white text-xl mt-4 mb-6 bg-[rgba(0,0,0,0.4)] hover:border-white hover:text-black hover:bg-[rgba(0,0,0,0.0)] w-44 tooltip" data-tip="click Here">Discover More</button>
-                </a>
-            </div>
         </nav>
-        <!-- mid and large device nav bar end-->
-         <!-- nav secetion end -->
+        
+        <section class=" max-sm:px-4">
+            <div class="p-4 flex items-center justify-center">
+                <div class="bg-[rgba(0,0,0,0.30)] p-6 rounded-2xl shadow-md max-w-md w-full">
+                    <p class="text-center text-gray-300 text-4xl mt-2 mb-6 font-semibold">Sign Up <br> To The Resot</p>
+            
+                    <!-- Signup Form -->
+                    <form>
+                        <div>
+                          <input type="text" id="name" name="name" placeholder="Name" class=" mb-4 mt-1 p-2 w-full border rounded-md focus:outline-none focus:border-gray-300 text-gray-700">
+                        </div>
+                    
+                        <div>
+                          <input type="email" id="email" name="email" placeholder="Email Address" class="mb-4 mt-1 p-2 w-full border rounded-md focus:outline-none focus:border-gray-300 text-gray-700">
+                        </div>
+                    
+                        <div>
+                          <input type="tel" id="mobileNumber" name="mobileNumber" placeholder="Mobile Number" class="mb-4 mt-1 p-2 w-full border rounded-md focus:outline-none focus:border-gray-300 text-gray-700">
+                        </div>
+                    
+                        <div>
+                          <input type="text" id="username" name="username" placeholder="Username" class="mb-4 mt-1 p-2 w-full border rounded-md focus:outline-none focus:border-gray-300 text-gray-700">
+                        </div>
+                    
+                        <div>
+                          <input type="password" id="password" name="password" placeholder="Password" class="mb-4 mt-1 p-2 w-full border rounded-md focus:outline-none focus:border-gray-300 text-gray-700">
+                        </div>
+                    
+                        <div>
+                          <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password" class="mb-4 mt-1 p-2 w-full border rounded-md focus:outline-none focus:border-gray-300 text-gray-700">
+                        </div>
+                    
+                        <button type="submit" class="btn w-full border-orange-300 text-white text-xl mt-4 shadow-2xl bg-[rgba(0,0,0,0.3)] hover:border-gray-400 hover:text-black hover:bg-[rgba(0,0,0,0.0)] tooltip" data-tip="click Here">Sign Up</button>
+                    </form>
+                    <p class="mt-4  text-gray-600 text-center font-mono">Already have an account? <a href="login.html" class="text-orange-400 font-semibold hover:underline hover:text-gray-700 font-serif">Log in</a></p>
+                </div>
+            </div>
+        </section>
     </main>
+    <!-- sing up section end -->
 
-    <section class="px-24 mb-10">
-        <div class="py-16">
-            <p class=" text-2xl font-mono mt-10">Luxury is redefined in our unique stay alternative.</p>
-            <h3 class="text-6xl mt-10 font-serif">Rooms and accommodations</h3>
-        </div>
-
-        <div class=" xl:grid grid-cols-12 gap-10">
-            <div class="col-span-4  bg-orange-50 p-4 rounded-2xl drop-shadow-xl">
-                <div class="max-w-xs overflow-hidden rounded-2xl drop-shadow-xl border-2 border-white">
-                    <img class="items-center xl:h-72 rounded-xl object-cover transition duration-500 hover:scale-110" src="./images/room1.jpg" alt="">
-                </div>
-                <div class="mt-6">
-                    <h3 class="text-4xl text-center text-gray-500 font-semibold font-serif">Deluxe Couple</h3>
-                    <p class="text-gray-700 mt-6 font-mono">The classic style emphasizes balance, proportion and harmony, resulting in rooms that feel cohesive and inviting. The use of traditional architectural elements such as crown molding, Ceiling medallions and glass cladding ...</p>
-                    <a href="deluexCopule.html">
-                        <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 tooltip xl:mt-6 mt-4 font-serif" data-tip="click Here">Book This Room</button>
-                    </a>
-                </div>
-            </div>
-            <div class="col-span-4 bg-orange-50 rounded-2xl p-4 drop-shadow-xl">
-                <div class="max-w-xs overflow-hidden rounded-2xl drop-shadow-xl border-2 border-white">
-                    <img class="xl:h-72 rounded-xl object-cover transition duration-500 hover:scale-110" src="./images/room2.jpg" alt="">
-                </div>
-                <div class="mt-6">
-                    <h3 class="text-4xl text-center text-gray-500 font-semibold font-serif">Family Suite</h3>
-                    <p class="text-gray-700 mt-6 font-mono">In addition to improving concentration and productivity, being well rested has been shown to benefit immune function, mental health, and even help weight loss, a type of heart-healthy fat that can decrease inflammation and ...</p>
-                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 tooltip xl:mt-6 mt-4 font-serif" data-tip="click Here" ><a href="familySuite.html">Book This Room</a></button>
-                </div>
-            </div>
-            <div class="col-span-4 bg-orange-50 rounded-2xl p-4 drop-shadow-xl">
-                <div class="max-w-xs overflow-hidden rounded-2xl drop-shadow-xl border-2 border-white">
-                    <img class="xl:h-72 rounded-xl object-cover transition duration-500 hover:scale-110" src="./images/room3.jpg" alt="">
-                </div>
-                <div class="mt-6">
-                    <h3 class="text-4xl text-center text-gray-500 font-semibold font-serif">Deluxe Standard</h3>
-                    <p class="text-gray-700 mt-6 font-mono">Deluxe rooms are typically more spacious than standard rooms, providing extra space to move around and relax. They often come with larger beds, premium bedding, and better-quality furniture to ensure a comfortable stay...</p>
-                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 tooltip xl:mt-6 mt-4 font-serif" data-tip="click Here"><a href="deluxeStandard.html">Book This Room</a></button>
-                </div>
-            </div>
-        </div>
-    </section>
-
+    <!-- map section start -->
     <section>
-        <!-- map section start -->
         <div class="relative w-full h-[600px]">
             <iframe class="absolute top-0 left-0 w-full h-full"
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12080.73732861526!2d-74.0059418!3d40.7127847!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM40zMDA2JzEwLjAiTiA3NMKwMjUnMzcuNyJX!5e0!3m2!1sen!2sus!4v1648482801994!5m2!1sen!2sus"
@@ -220,8 +213,9 @@
         </div>
         <!-- curve footer svg end -->
     </section>
+
 </body>       
-    
+
 <footer class="bg-gray-400 px-16 p-2  relative text-white text-base-content ">
     <div class="footer">
         <h2 class="text-6xl border-b-2 text-white font-serif">Resort</h2>
@@ -255,7 +249,7 @@
             <li class="">Experience</li>
             <li class="">Freasher</li>
         </ul>
-        
+
         <!-- address part start -->
         <div class="text-white">
             <h3 class="footer-title text-xl font-serif">Address</h3>
