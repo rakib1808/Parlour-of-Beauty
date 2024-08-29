@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title class="tooltip" data-tip="Gallery The Resort"> Gallery The Resort</title>
+    <title class="tooltip" data-tip="Refund Policy The Resort">Refund Policy The Resort</title>
     <link rel="icon" type="image/x-icon" href="">
 
-    <!-- tailwindcss instaling -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="banner style.css">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-
 </head>
 <body>
-    <main class="bg-cover h-[100%] bg-center text-center" style="background-image: url(./images/baner4.jpg);" >
+    <main class="Section_top">
         <!-- small device nav secetion start -->
         <nav class="md:hidden lg:hidden sm:hidden">
             <div class="flex justify-around p-2">
@@ -38,15 +38,15 @@
                 <div class="md:flex gap-16 mb-2 px-8 mt-2">
                     <div class="flex gap-2 items-center">
                         <div>
-                            <img class="h-6" src="./images/mail.png" alt="">
+                            <img class="h-6" src="./images/" alt="">
                         </div>
                         <div>
-                            <h2 class="link link-hover hover:text-orange-400 font-mono"><a href="mailto:resrt@mail.com">resort@gmail.com</a></h2>
+                            <h2 class="link link-hover hover:text-orange-400 font-mono"><a href="mailto:">resort@gmail.com</a></h2>
                         </div>
                     </div>
                     <div class="flex gap-2 items-center">
                         <div>
-                            <img class="h-4" src="./images/call black of footer.png" alt="">
+                            <img class="h-4" src="./imge/call.png" alt="">
                         </div>
                         <div>
                             <h2 class="link link-hover  hover:text-orange-400 font-serif"><a href="">0173-10000</a></h2>
@@ -62,7 +62,7 @@
                         <li class="hover:text-orange-400 max-sm:mt-2 max-sm:mb-2"><a href="rooms.html">Rooms</a></li>
                         <li class="hover:text-orange-400"><a href="facilities.html">Facilities</a></li>
                         <li class="hover:text-orange-400 max-sm:mt-2 max-sm:mb-2"><a href="gallery.html">Gallery</a></li>
-                        <li class="hover:text-orange-400"><a href="contactUs.html">CONTACT US</a></li>
+                        <li class="hover:text-orange-400"><a href="contactUs.html">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="flex mt-2 font-semibold justify-around font-mono">
@@ -70,7 +70,7 @@
                         <p><a href="login.html">Login</a></p>
                    </div>
                     <div class="link-hover hover:text-orange-400">
-                        <p><a href="SingUp.html">Sing Up</a></p>
+                        <p><a href="singUp.html">Sing Up</a></p>
                     </div>
                 </div>
             </div>
@@ -84,7 +84,7 @@
         </div>
         </dialog>
         <div>
-            <h2 class="text-6xl text-white mt-10 mb-10">Dive into Paradise:<br> Your Seaside Heaven <br> Awaits</h2>
+            <h2 class="text-6xl text-white mt-10 mb-10 drop-shadow-2xl">Dive into Paradise:<br> Your Seaside Heaven <br> Awaits</h2>
             <a href="rooms.html">
                 <button class="btn border-orange-300 text-white text-xl mt-4 bg-[rgba(0,0,0,0.4)] hover:border-white hover:text-black hover:bg-[rgba(0,0,0,0.0)] w-44 tooltip" data-tip="click Here">Discover More</button>
             </a>
@@ -109,11 +109,11 @@
                     </div>
                     <div class="flex items-center">
                         <div>
-                            <img class="h-8" src="./images/call" alt="">
+                            <img class="h-8" src="./images/call.png" alt="">
                         </div>
                         <a href="">
                             <div>
-                                <h2 class="link-hover font-serif " >0173- <span class="text-blue-500">10</span>000</h2>
+                                <h2 class="link-hover font-serif">0173-10000</h2>
                             </div>
                         </a>
                     </div>
@@ -138,11 +138,11 @@
                 </div>
                 <div>
                     <ul class="lg:flex gap-16 font-semibold text-white xl:mt-20 sm:mt-6 md:mt-4 lg:mt-10 font-serif">
-                        <a class="hover:border-b hover:border-orange-300" href="index.html"><li>Home</li></a>
-                        <a class="hover:border-b hover:border-orange-300" href="rooms.html"><li>Rooms</li></a>
-                        <a class="hover:border-b hover:border-orange-300" href="facilities.html"><li>Facilities</li></a>
-                        <a class="hover:border-b hover:border-orange-300" href="gallery.html"><li>Gallery</li></a>
-                        <a class="hover:border-b hover:border-orange-300" href="contactUs.html"><li>CONTACT US</li></a>
+                        <a href="index.html"><li>Home</li></a>
+                        <a href="rooms.html"><li>Rooms</li></a>
+                        <a href="facilities.html"><li>Facilities</li></a>
+                        <a href="gallery.html"><li>Gallery</li></a>
+                        <a href="contactUs.html"><li>Contact Us</li></a>
                     </ul>
                 </div>
                 <div class="xl:mt-14 lg:mt-6 mt-4">
@@ -154,155 +154,47 @@
             <div>
                 <h2 class="sm:text-4xl md:text-4xl lg:mt-16 lg:text-6xl xl:text-8xl text-white">Dive into Paradise: Your<br> Seaside Heaven <br> Awaits</h2>
                 <a href="rooms.html">
-                    <button class="btn border-orange-300 text-white text-xl xl:mt-10 mt-4 mb-6 bg-[rgba(0,0,0,0.4)] hover:border-white hover:text-black hover:bg-[rgba(0,0,0,0.0)] w-44 tooltip" data-tip="click Here">Discover More</button>
-                </a>
+                <button class="btn border-orange-300 text-white text-xl mt-4 bg-[rgba(0,0,0,0.4)] hover:border-white hover:text-black hover:bg-[rgba(0,0,0,0.0)] w-44 tooltip" data-tip="click Here">Discover More</button></a>
             </div>
         </nav>
         <!-- mid and large device nav bar end-->
          <!-- nav secetion end -->
     </main>
 
-    <section class="p-4 xl:px-6 lg:px-6 md:p-6 sm:px-10 bg-gradient-to-r from-orange-50 to-pink-50 mt-10 mb-10 rounded-xl">
-        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-            <div class="grid gap-4">
-                <div>
-                    <img class="h-auto max-w-full drop-shadow-xl transition duration-500 hover:scale-110 rounded-lg" src="./images/2nd section.jpg" alt="">
-                </div>
-                <div>
-                    <img class="h-auto max-w-full rounded-lg drop-shadow-xl transition duration-500 hover:scale-110" src="./images/aboutUs img.jpg" alt="">
-                </div>
-                <div>
-                    <img class="h-auto max-w-full rounded-lg drop-shadow-xl transition duration-500 hover:scale-110" src="./images/bed room ficiliti.jpg" alt="">
-                </div>
-            </div>
-            <div class="grid gap-4">
-                <div>
-                    <img class="h-auto max-w-full rounded-lg drop-shadow-xl transition duration-500 hover:scale-110" src="./images/cc camera.jpg" alt="">
-                </div>
-                <div>
-                    <img class="h-auto max-w-full rounded-lg drop-shadow-xl transition duration-500 hover:scale-110" src="./images/baner1.jpg" alt="">
-                </div>
-                <div>
-                    <img class="h-auto max-w-full rounded-lg drop-shadow-xl transition duration-500 hover:scale-110" src="./images/car parking.jpg" alt="">
-                </div>
-            </div>
-            <div class="grid gap-4">
-                <div>
-                    <img class="h-auto max-w-full rounded-lg drop-shadow-xl transition duration-500 hover:scale-110" src="./images/cloth laundry.jpg" alt="">
-                </div>
-                <div>
-                    <img class="h-auto max-w-full rounded-lg drop-shadow-xl transition duration-500 hover:scale-110" src="./images/baner2.jpg" alt="">
-                </div>
-                <div>
-                    <img class="h-auto max-w-full rounded-lg drop-shadow-xl transition duration-500 hover:scale-110" src="./images/bed room ficiliti.jpg" alt="">
+    <section class="bg-gray-100 p-16 max-sm:p-4">
+
+        <div class="bg-gray-200 py-4 drop-shadow-2xl">
+
+            <div class="bg-gray-100 ">
+                <div class="py-10 px-36 max-sm:px-4">
+                    <h2 class="font-bold text-4xl text-center text-gray-500">Refund Policy</h2>
+                    <p class="text-gray-600 mt-16 mb-3">At The Resort, we are committed to providing exceptional dining experiences and ensuring your satisfaction. While we strive to deliver high-quality food and service, we understand that there may be times when issues arise. Please review our refund policy below:</p>
+    
+                    <h2 class="font-bold text-gray-600 mt-10 mb-3">1. Dining Experience:</h2>
+                    <p>If you are dissatisfied with your meal or service, please let us know immediately. Our team is dedicated to resolving any issues on the spot and ensuring that you leave satisfied. We encourage you to share your feedback with us during your visit so that we can address any concerns promptly.</p>
+    
+                    <h2 class="font-bold text-gray-600 mt-16 mb-3">Booking Our Rooms:</h2>
+                    <p>If you experience an issue with your booking our room, such as missing items or incorrect orders, please contact us within of receiving your order. We will make every effort to correct the issue or offer a suitable resolution.</p>
+    
+                    <h2 class="font-bold text-gray-600 mt-16 mb-3">3. Refunds:</h2>
+                    <p>Refunds for dine-in experiences are generally not provided unless there is a significant issue that cannot be resolved during your visit. For takeout and delivery orders, if we are unable to resolve the issue to your satisfaction, a refund or credit may be offered at our discretion.</p>
+    
+                    <h2 class="font-bold text-gray-600 mt-16 mb-3">4. Special Circumstances:</h2>
+                    <p>In exceptional cases, such as medical emergencies or unavoidable circumstances, please reach out to us directly to discuss your situation. We are committed to working with you to find a fair resolution.</p>
+    
+                    <h2 class="font-bold text-gray-600 mt-16 mb-3">5. Contact Us:</h2>
+                    <p>For any concerns or requests related to refunds, please contact us at <a class="font-semibold underline link link-hover" href="mailto:resort@gmail.com">resort@gmail.com</a> or visit our restaurant in person. Our team is here to assist you and ensure that your experience with The Resort is positive.</p>
+                    <br>
+                    <p class="font-semibold mb-16">Thank you for choosing our 'The Resort'. We appreciate your understanding and cooperation.</p>
                 </div>
             </div>
-            <div class="grid gap-4">
-                <div>
-                    <img class="h-auto max-w-full rounded-lg drop-shadow-xl transition duration-500 hover:scale-110" src="./images/safe locar.jpg" alt="">
-                </div>
-                <div>
-                    <img class="h-auto max-w-full rounded-lg drop-shadow-xl transition duration-500 hover:scale-110" src="./images/baner3.jpg" alt="">
-                </div>
-                <div>
-                    <img class="h-auto max-w-full rounded-lg drop-shadow-xl transition duration-500 hover:scale-110" src="./images/baner4.jpg" alt="">
-                </div>
-            </div>
-            <div class="grid gap-4">
-                <div>
-                    <img class="h-auto max-w-full rounded-lg drop-shadow-xl transition duration-500 hover:scale-110" src="./images/food.jpg" alt="">
-                </div>
-                <div>
-                    <img class="h-auto max-w-full rounded-lg drop-shadow-xl transition duration-500 hover:scale-110" src="./images/cloth washing.jpg" alt="">
-                </div>
-                <div>
-                    <img class="h-auto max-w-full rounded-lg drop-shadow-xl transition duration-500 hover:scale-110" src="./images/baner5.jpg" alt="">
-                </div>
-            </div>
-            <div class="grid gap-4">
-                <div>
-                    <img class="h-auto max-w-full rounded-lg drop-shadow-xl transition duration-500 hover:scale-110" src="./images/deluxe stand.jpg" alt="">
-                </div>
-                <div>
-                    <img class="h-auto max-w-full rounded-lg drop-shadow-xl transition duration-500 hover:scale-110" src="./images/coffe.jpg" alt="">
-                </div>
-                <div>
-                    <img class="h-auto max-w-full rounded-lg drop-shadow-xl transition duration-500 hover:scale-110" src="./images/driver accommo.jpg" alt="">
-                </div>
-            </div>
-            <div class="grid gap-4">
-                <div>
-                    <img class="h-auto max-w-full rounded-lg drop-shadow-xl transition duration-500 hover:scale-110" src="./images/food2.jpg"alt="">
-                </div>
-                <div>
-                    <img class="h-auto max-w-full rounded-lg drop-shadow-xl transition duration-500 hover:scale-110" src="./images/hall room.jpeg" alt="">
-                </div>
-                <div>
-                    <img class="h-auto max-w-full rounded-lg drop-shadow-xl transition duration-500 hover:scale-110" src="./images/home page room.jpg" alt="">
-                </div>
-            </div>
-            <div class="grid gap-4">
-                <div>
-                    <img class="h-auto max-w-full rounded-lg drop-shadow-xl transition duration-500 hover:scale-110" src="./images/restaurents.jpeg" alt="">
-                </div>
-                <div>
-                    <img class="h-auto max-w-full rounded-lg drop-shadow-xl transition duration-500 hover:scale-110" src="./images/view resort6.jpg" alt="">
-                </div>
-                <div>
-                    <img class="h-auto max-w-full rounded-lg drop-shadow-xl transition duration-500 hover:scale-110" src="./images/tv room.jpg" alt="">
-                </div>
-            </div>
-            <div class="grid gap-4">
-                <div>
-                    <img class="h-auto max-w-full rounded-lg drop-shadow-xl transition duration-500 hover:scale-110" src="./images/spa.jpg" alt="">
-                </div>
-                <div>
-                    <img class="h-auto max-w-full rounded-lg drop-shadow-xl transition duration-500 hover:scale-110" src="./images/wifi.jpg" alt="">
-                </div>
-                <div>
-                    <img class="h-auto max-w-full rounded-lg drop-shadow-xl transition duration-500 hover:scale-110" src="./images/food3.jpg" alt="">
-                </div>
-            </div>
-            <div class="grid gap-4">
-                <div>
-                    <img class="h-auto max-w-full rounded-lg drop-shadow-xl transition duration-500 hover:scale-110" src="./images/room2.jpg" alt="">
-                </div>
-                <div>
-                    <img class="h-auto max-w-full rounded-lg drop-shadow-xl transition duration-500 hover:scale-110" src="./images/view resort3.jpg" alt="">
-                </div>
-                <div>
-                    <img class="h-auto max-w-full rounded-lg drop-shadow-xl transition duration-500 hover:scale-110" src="./images/restaurents.jpeg" alt="">
-                </div>
-            </div>
-            <div class="grid gap-4">
-                <div>
-                    <img class="h-auto max-w-full rounded-lg drop-shadow-xl transition duration-500 hover:scale-110" src="./images/food1.jpg"  alt="">
-                </div>
-                <div>
-                    <img class="h-auto max-w-full rounded-lg drop-shadow-xl transition duration-500 hover:scale-110" src="./images/minibar.jpg" alt="">
-                </div>
-                <div>
-                    <img class="h-auto max-w-full rounded-lg drop-shadow-xl transition duration-500 hover:scale-110" src="./images/coffe.jpg" alt="">
-                </div>
-            </div>
-            <div class="grid gap-4">
-                <div>
-                    <img class="h-auto max-w-full rounded-lg drop-shadow-xl transition duration-500 hover:scale-110" src="./images/spa.jpg" alt="">
-                </div>
-                <div>
-                    <img class="h-auto max-w-full rounded-lg drop-shadow-xl transition duration-500 hover:scale-110" src="./images/Beachfront ficili.jpg" alt="">
-                </div>
-                <div>
-                    <img class="h-auto max-w-full rounded-lg drop-shadow-xl transition duration-500 hover:scale-110" src="./images/baner3.jpg" alt="">
-                </div>
-            </div>
+
         </div>
 
     </section>
 
-
+    <!-- map section start -->
     <section>
-        <!-- map section start -->
         <div class="relative w-full h-[600px]">
             <iframe class="absolute top-0 left-0 w-full h-full"
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12080.73732861526!2d-74.0059418!3d40.7127847!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM40zMDA2JzEwLjAiTiA3NMKwMjUnMzcuNyJX!5e0!3m2!1sen!2sus!4v1648482801994!5m2!1sen!2sus"
@@ -320,7 +212,7 @@
     </section>
 </body>       
     
-<footer class="bg-gray-400 px-16 p-2  relative text-white text-base-content ">
+<footer class="bg-gray-400 px-16 p-2  relative text-white">
     <div class="footer">
         <h2 class="text-6xl border-b-2 text-white font-serif">Resort</h2>
     </div>
@@ -359,7 +251,7 @@
             <h3 class="footer-title text-xl font-serif">Address</h3>
             <div class="flex gap-1">
                 <div>
-                    <img class="w-4 mt-1" src="./images/location.png" alt="">
+                    <img class="w-4 mt-1" src="../images/location.png" alt="">
                 </div>
                 <div>
                     <p class="link link-hover"> <a href="https://www.google.com/maps/search/02+DOHS,+Mirpur,+Dhaka./@23.8063052,90.310999,11z?entry=ttu">02 DOHS, <br>
@@ -370,7 +262,7 @@
             </div>
             <div class="flex gap-1 items-center">
                 <div>
-                    <img class="h-3" src="./images/mail footer.png" alt="">
+                    <img class="h-3" src="../images/mail footer.png" alt="">
                 </div>
                 <div>
                     <h2 class="link link-hover"><a href="mailto:resort@gmail.com">resort@gmail.com</a></h2>
@@ -378,7 +270,7 @@
             </div>
             <div class="flex items-center">
                 <div>
-                    <img class=" h-6" src="./images/call black of footer.png" alt="">
+                    <img class=" h-6" src="../images/call black of footer.png" alt="">
                 </div>
                 <div>
                     <h2 class="link link-hover"><a href="">0173-10550</a></h2>
@@ -391,13 +283,13 @@
             <h6 class="footer-title text-xl font-serif">Follow us</h6>
             <div class="flex gap-4 justify-around mt-6">
                 <div class="hover:bg-white bg-stone-300 rounded-full w-10 h-10 p-2">
-                    <a href="https://www.facebook.com/"><img class="w-8 object-cover transition duration-300 hover:scale-110" src="./images/fb.png" alt=""></a>
+                    <a href="https://www.facebook.com/"><img class="w-8 object-cover transition duration-300 hover:scale-110" src="../images/fb.png" alt=""></a>
                 </div>
                 <div class="hover:bg-white bg-stone-300 rounded-full w-10 h-10 p-2">
-                    <a href="https://www.instagram.com/"><img class="w-8 object-cover transition duration-300 hover:scale-110" src="./images/instagram.png" alt=""></a>
+                    <a href="https://www.instagram.com/"><img class="w-8 object-cover transition duration-300 hover:scale-110" src="../images/instagram.png" alt=""></a>
                 </div>
                 <div class="hover:bg-white bg-stone-300 rounded-full w-10 h-10 p-2">
-                    <a href="https://x.com/home"><img class="w-12 object-cover transition duration-300 hover:scale-110" src="./images/twiter.png" alt=""></a>
+                    <a href="https://x.com/home"><img class="w-12 object-cover transition duration-300 hover:scale-110" src="../images/twiter.png" alt=""></a>
                 </div>
             </div>
         </div>
@@ -414,7 +306,7 @@
         <a href="contactUs.html"><div class="link-hover">Contact Us</div></a>
     </div>
     <div>
-        <p class="mt-16 text-center text-gray-300">@all rights reserved, The RH_Resort.2024</p>
+        <p class="mt-16 text-center text-gray-300">@all rights reserved, The Resort.2024</p>
     </div>
 </footer>
 </html>
