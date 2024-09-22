@@ -8,13 +8,12 @@
     <link rel="icon" type="image/x-icon" href="../images/logo.jpg">
 
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="banner style.css">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
 <body>
-    <main class="Section_top">
+    <main class="bg-cover h-[100%] bg-center text-center" style="background-image: url(../images/spa4.jpg);" >
         <!-- small device nav secetion start -->
         <nav class="md:hidden lg:hidden sm:hidden">
             <div class="flex justify-between p-2">
@@ -249,213 +248,261 @@
             <div>
                 <h2 class="sm:text-4xl md:text-4xl lg:mt-16 lg:text-6xl xl:text-8xl text-white">Dive Into The  Realm <br> of Beauty </h2>
                 <a href="rooms.html">
-                <button class="btn border-orange-300 text-white text-lg mt-4 bg-[rgba(0,0,0,0.4)] hover:border-white hover:text-black hover:bg-[rgba(0,0,0,0.0)] w-44 tooltip" data-tip="click Here">Discover More</button></a>
+                <button class="btn mb-4 border-orange-300 text-white text-lg mt-4 bg-[rgba(0,0,0,0.4)] hover:border-white hover:text-black hover:bg-[rgba(0,0,0,0.0)] w-44 tooltip" data-tip="click Here">Discover More</button></a>
             </div>
         </nav>
         <!-- mid and large device nav bar end-->
          <!-- nav secetion end -->
     </main>
 
-    <section class="py-16 px-20 max-sm:px-4">
-        <div>
+    <section class="px-4 xl:px-10 lg:px-10 md:px-10 sm:px-10">
+        <div class="xl:py-16 lg:py-16 md:py-16 sm:py-16 max-sm:text-center sm:text-center">
+            <h3 class="text-4xl mt-10 font-serif">Our Spa</h3>
+            <p class=" text-xl font-mono mt-10 max-sm:mt-6 max-sm:mb-6">Spa: Women's Beauty Care.</p>
+        </div>
+
+        <div class="gap-10 xl:flex lg:flex md:flex xl:px-10 lg:px-10 md:px-10 sm:px-10">
             <div>
-                <p class="font-mono text-gray-800">Discover exclusive offers for upgraded stays, dining, and excursions with special rates and perks.</p>
-                <h3 class="text-gray-600 font-semibold font-mono text-6xl mt-6">Explore Amenities</h3>
+                <div>
+                    <p class="text-2xl font-semibold font-mono"> Medical Spa</p>
+                </div>
+                <div>
+                    <img class="h-[550px] w-[1000px] mb-6" src="../images/spa5.jpg " alt="">
+                </div>
+                <!-- from daisyui -->
+                 <!-- You can open the modal using ID.showModal() method -->
+                <div class="px-20 max-sm:px-10 flex gap-6">
+                    <div>
+                        <button class="xl:border-8 border-gray-400 overflow-hidden" onclick="my_modal_1.showModal()"><img class="w-96 object-cover transition duration-500 hover:scale-110 cursor-pointer" src="../images/spa.jpg" alt=""></button>
+                        <dialog id="my_modal_1" class="">
+                          <div class=" max-sm:modal-box ">
+                            <form method="dialog">
+                              <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 border-2 border-white bg-white ">✕</button>
+                            </form>
+                            <img class="xl:h-[550px] xl:w-[1200px]" src="../images/spa.jpg" alt="">
+                          </div>
+                        </dialog>
+                    </div>
+                    <div>
+                        <button class="xl:border-8 border-gray-400 overflow-hidden" onclick="my_modal_2.showModal()"><img class="w-96 object-cover transition duration-500 hover:scale-110 cursor-pointer" src="../images/spa1.jpg" alt=""></button>
+                        <dialog id="my_modal_2" class="">
+                          <div class=" max-sm:modal-box ">
+                            <form method="dialog">
+                              <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 border-2 border-white bg-white">✕</button>
+                            </form>
+                            <img class="xl:h-[550px] xl:w-[1200px]" src="../images/spa1.jpg" alt="">
+                          </div>
+                        </dialog>
+                    </div>
+                    <div>
+                        <button class="xl:border-8 border-gray-400 overflow-hidden" onclick="my_modal_3.showModal()"><img class="w-96 object-cover transition duration-500 hover:scale-110 cursor-pointer " src="../images/spa10.jpg" alt=""></button>
+                        <dialog id="my_modal_3" class="">
+                          <div class=" max-sm:modal-box ">
+                            <form method="dialog">
+                              <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 border-2 border-white bg-white">✕</button>
+                            </form>
+                            <img class="xl:h-[550px] xl:w-[1200px]" src="../images/spa10.jpg" alt="">
+                          </div>
+                        </dialog>
+                    </div>
+                </div>
+                <div class="mt-10 mb-10">
+                    <h3 class="font-mono font-semibold text-2xl">Description</h3>
+                    <p class="text-lg font-serif mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque excepturi nemo inventore consequatur ea adipisci eaque harum ducimus voluptates ratione veritatis, itaque aperiam reiciendis tempore, beatae voluptatibus corrupti? Beatae quibusdam fugiat pariatur laboriosam id cum voluptatum ad corrupti commodi? Doloremque deserunt numquam ducimus alias ipsa possimus sapiente reiciendis debitis repellat!.</p>
+                </div>
             </div>
+        
 
-            <div class="bg-gray-200 mt-10 drop-shadow-2xl p4">
-                <div class="xl:flex xl:px-10 p-4 mb-10 xl:p-10 lg:p-10 md:p-10 sm:p-10 bg-white">
-                    <div>
-                        <img class="xl:w-[4000px] xl:h-[450px] xl:mt-20 sm:mt-20 md:mt-16 lg:mt-10 mt-6 drop-shadow-xl" src="../images/makeupbox.jpg" alt="">
-                    </div>
-                    <div class="bg-orange-50 drop-shadow-xl xl:w-[4000px] xl:h-[600px] xl:p-10 ">
-                        <h3 class="text-4xl text-gray-700 xl:mt-36 p-2 font-serif">Makeup</h3>
-                        <p class="mt-4 text-gray-500 p-2 font-mono">Host a successful conference or event in our sophisticated and modern conference hall. Our versatile resort conference center is equipped with cutting-edge audio-visual technology to ensure your presentations are clear and impactful. The Wave Resorts Ltd. conference hall can be the ideal venue for your conferences, corporate retreats, seminars, and more. Let us help you create a truly memorable event.</p>
+            <div class="bg-orange-50 mt-10 xl:h-[450px] lg:h-[450px] md:h-[450px] xl:w-[300px] lg:w-[300px] md:w-[300px] border border-gray-400 drop-shadow-xl max-sm:mb-10 sm:mb-10">
+                <div>
+                    <p class="bg-gray-500 text-white font-mono text-center py-2">Medical Spa <br><span class="font-serif text-xl font-semibold">1,500</span>/</p>
+                    <div class="px-5">
+                        <p class="mt-4 mb-4">Check In - Out</p>
+                        <p>10:00 AM to 12:00 PM</p>
+                        <input class="mt-4 mb-6 px-2 py-1 outline-none" type="date" name="" id="date">
+                        <div class="border border-gray-300"></div>
+                        <p class="mt-4 mb-2 text-gray-500 font-semibold">Guest </p>
+                        <p>1 Adult - 0 Children</p>
+                        <p class="mt-4 mb-2">Guest Name *</p>
+                        <input class="font-mono border-b p-1 border-gray-400 outline-none" type="Name" placeholder="Guest Name">
+                        <a href="login.html">
+                            <button class="btn border-orange-300 border-b-2 text-white text-xl mt-6 bg-[rgba(0,0,0,0.4)] hover:border-gray-500 hover:text-black hover:bg-white w-44 tooltip max-sm:mb-4" data-tip="click Here">Book Now</button>
+                        </a>
                     </div>
                 </div>
+            </div>
+        </div>
 
-                <div class="xl:flex xl:px-10 p-4 mb-10 xl:p-10 lg:p-10 md:p-10 sm:p-10 bg-white">
+        <div class="gap-10 xl:flex lg:flex md:flex xl:px-10 lg:px-10 md:px-10 sm:px-10">
+            <div>
+                <div>
+                    <p class="text-2xl font-semibold font-mono"> Ayurvedic Spa</p>
+                </div>
+                <div>
+                    <img class="h-[550px] w-[1000px] mb-6" src="../images/spa5.jpg " alt="">
+                </div>
+                <!-- from daisyui -->
+                 <!-- You can open the modal using ID.showModal() method -->
+                <div class="px-20 max-sm:px-10 flex gap-6">
                     <div>
-                        <img class="xl:w-[4000px] xl:h-[450px] xl:mt-20 sm:mt-20 md:mt-16 lg:mt-10 mt-6  drop-shadow-xl" src="../images/car parking.jpg" alt="">
+                        <button class="xl:border-8 border-gray-400 overflow-hidden" onclick="my_modal_1.showModal()"><img class="w-96 object-cover transition duration-500 hover:scale-110 cursor-pointer" src="../images/spa.jpg" alt=""></button>
+                        <dialog id="my_modal_1" class="">
+                          <div class=" max-sm:modal-box ">
+                            <form method="dialog">
+                              <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 border-2 border-white bg-white ">✕</button>
+                            </form>
+                            <img class="xl:h-[550px] xl:w-[1200px]" src="../images/spa.jpg" alt="">
+                          </div>
+                        </dialog>
                     </div>
-                    <div class="bg-orange-50 drop-shadow-xl xl:w-[4000px] xl:h-[600px] xl:p-10">
-                        <h3 class="text-4xl text-gray-700 xl:mt-36 p-2 font-serif">Secured Car Parking Facility</h3>
-                        <p class="mt-4 text-gray-500 p-2 font-mono">At The Resorts Ltd, we understand the importance of a stress-free arrival experience. That's why we provide a secure and dedicated car parking facility. You can embark on your journey of comfort from the moment you arrive, knowing that your vehicle is safe and easily accessible. Explore the surrounding attractions with ease, knowing that hassle-free parking awaits you.</p>
+                    <div>
+                        <button class="xl:border-8 border-gray-400 overflow-hidden" onclick="my_modal_2.showModal()"><img class="w-96 object-cover transition duration-500 hover:scale-110 cursor-pointer" src="../images/spa1.jpg" alt=""></button>
+                        <dialog id="my_modal_2" class="">
+                          <div class=" max-sm:modal-box ">
+                            <form method="dialog">
+                              <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 border-2 border-white bg-white">✕</button>
+                            </form>
+                            <img class="xl:h-[550px] xl:w-[1200px]" src="../images/spa1.jpg" alt="">
+                          </div>
+                        </dialog>
+                    </div>
+                    <div>
+                        <button class="xl:border-8 border-gray-400 overflow-hidden" onclick="my_modal_3.showModal()"><img class="w-96 object-cover transition duration-500 hover:scale-110 cursor-pointer " src="../images/spa10.jpg" alt=""></button>
+                        <dialog id="my_modal_3" class="">
+                          <div class=" max-sm:modal-box ">
+                            <form method="dialog">
+                              <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 border-2 border-white bg-white">✕</button>
+                            </form>
+                            <img class="xl:h-[550px] xl:w-[1200px]" src="../images/spa10.jpg" alt="">
+                          </div>
+                        </dialog>
                     </div>
                 </div>
+                <div class="mt-10 mb-10">
+                    <h3 class="font-mono font-semibold text-2xl">Description</h3>
+                    <p class="text-lg font-serif mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque excepturi nemo inventore consequatur ea adipisci eaque harum ducimus voluptates ratione veritatis, itaque aperiam reiciendis tempore, beatae voluptatibus corrupti? Beatae quibusdam fugiat pariatur laboriosam id cum voluptatum ad corrupti commodi? Doloremque deserunt numquam ducimus alias ipsa possimus sapiente reiciendis debitis repellat!.</p>
+                </div>
+            </div>
+        
 
-                <div class="xl:flex xl:px-10 p-4 mb-10 xl:p-10 lg:p-10 md:p-10 sm:p-10 bg-white">
-                    <div>
-                        <img class="xl:w-[4000px] xl:h-[450px] xl:mt-20 sm:mt-20 md:mt-16 lg:mt-10 mt-6" src="../images/tv room.jpg" alt="">
-                    </div>
-                    <div class="bg-orange-50 drop-shadow-xl xl:w-[4000px] xl:h-[600px] xl:p-10">
-                        <h3 class="text-4xl text-gray-700 xl:mt-36 p-2 font-serif">Large-Screen Android TVL</h3>
-                        <p class="mt-4 text-gray-500 p-2 font-mono">Indulge in a world of entertainment with our state-of-the-art Smart TVs. Our large-screen Android TVs offer a plethora of viewing options for your relaxation. Immerse yourself in your favorite movies, TV shows, or streaming platforms, enhancing your viewing experience and ensuring endless entertainment possibilities during your stay at The Resorts Ltd.</p>
+            <div class="bg-orange-50 mt-10 xl:h-[450px] lg:h-[450px] md:h-[450px] xl:w-[300px] lg:w-[300px] md:w-[300px] border border-gray-400 drop-shadow-xl max-sm:mb-10 sm:mb-10">
+                <div>
+                    <p class="bg-gray-500 text-white font-mono text-center py-2">Ayurvedic Spa <br><span class="font-serif text-xl font-semibold">2,000</span>/</p>
+                    <div class="px-5">
+                        <p class="mt-4 mb-4">Check In - Out</p>
+                        <p>10:00 AM to 12:00 PM</p>
+                        <input class="mt-4 mb-6 px-2 py-1 outline-none" type="date" name="" id="date">
+                        <div class="border border-gray-300"></div>
+                        <p class="mt-4 mb-2 text-gray-500 font-semibold">Guest </p>
+                        <p>1 Adult - 0 Children</p>
+                        <p class="mt-4 mb-2">Guest Name *</p>
+                        <input class="font-mono border-b p-1 border-gray-400 outline-none" type="Name" placeholder="Guest Name">
+                        <a href="login.html">
+                            <button class="btn border-orange-300 border-b-2 text-white text-xl mt-6 bg-[rgba(0,0,0,0.4)] hover:border-gray-500 hover:text-black hover:bg-white w-44 tooltip max-sm:mb-4" data-tip="click Here">Book Now</button>
+                        </a>
                     </div>
                 </div>
-
-                <div class="xl:flex xl:px-10 p-4 mb-10 xl:p-10 lg:p-10 md:p-10 sm:p-10 bg-white">
-                    <div>
-                        <img class="xl:w-[4000px] xl:h-[450px] xl:mt-20 sm:mt-20 md:mt-16 lg:mt-10 mt-6" src="../images/wifi.jpg" alt="">
-                    </div>
-                    <div class="bg-orange-50 drop-shadow-xl xl:w-[4000px] xl:h-[600px] xl:p-10">
-                        <h3 class="text-4xl text-gray-700 xl:mt-36 p-2 font-serif">High-Speed Internet</h3>
-                        <p class="mt-4 text-gray-500 p-2 font-mono">Stay connected effortlessly with our high-speed WiFi network. Whether you need to browse the web, stay in touch with loved ones, or catch up on work, our reliable internet connection ensures smooth communication throughout your stay. Say goodbye to buffering and enjoy seamless browsing and connectivity at The Resorts Ltd.</p>
-                    </div>
-                </div>
-
-                <div class="xl:flex xl:px-10 p-4 mb-10 xl:p-10 lg:p-10 md:p-10 sm:p-10 bg-white">
-                    <div>
-                        <img class="xl:w-[4000px] xl:h-[450px] xl:mt-20 sm:mt-20 md:mt-16 lg:mt-10 mt-6" src="../images/safe locar.jpg" alt="">
-                    </div>
-                    <div class="bg-orange-50 drop-shadow-xl xl:w-[4000px] xl:h-[600px] xl:p-10">
-                        <h3 class="text-4xl text-gray-700 xl:mt-36 p-2 font-serif">Digital Safe Locker</h3>
-                        <p class="mt-4 text-gray-500 p-2 font-mono">Your peace of mind is our priority. We provide modern locker facilities to ensure the safety and security of your belongings. Rest easy knowing that your valuable items are protected in our digital safe lockers. Enjoy your stay at The Resorts Ltd without worrying about the safety of your personal belongings.</p>
-                    </div>
-                </div>
-
-                <div class="xl:flex xl:px-10 p-4 mb-10 xl:p-10 lg:p-10 md:p-10 sm:p-10 bg-white">
-                    <div>
-                        <img class="xl:w-[4000px] xl:h-[450px]xl:mt-20 sm:mt-20 md:mt-16 lg:mt-10 mt-6" src="../images/spa.jpg" alt="">
-                    </div>
-                    <div class="bg-orange-50 drop-shadow-xl xl:w-[4000px] xl:h-[600px] xl:p-10">
-                        <h3 class="text-4xl text-gray-700 xl:mt-36 p-2 font-serif">Spa Friendly</h3>
-                        <p class="mt-4 text-gray-500 p-2 font-mono">Look Your Best with the Makeover-Friendly Setup. Get ready with style! Our large and properly illuminated rooms create an ideal ambiance for your pre-event makeovers. Look your best on your vacation! The Wave Resorts Ltd offers spacious and well-lit rooms, creating the perfect environment for getting ready for a special occasion or a night out on the town.</p>
-                    </div>
-                </div>
-
-                <div class="xl:flex xl:px-10 p-4 mb-10 xl:p-10 lg:p-10 md:p-10 sm:p-10 bg-white">
-                    <div>
-                        <img class="xl:w-[4000px] xl:h-[450px] xl:mt-20 sm:mt-20 md:mt-16 lg:mt-10 mt-6" src="../images/minibar.jpg" alt="">
-                    </div>
-                    <div class="bg-orange-50 drop-shadow-xl xl:w-[4000px] xl:h-[600px] xl:p-10">
-                        <h3 class="text-4xl text-gray-700 xl:mt-36 p-2 font-serif">Fridge and minibar</h3>
-                        <p class="mt-4 text-gray-500 p-2 font-mono">Stay cool and refreshed! Each room at The Wave Resorts Ltd features a fridge and minibar, stocked with drinks and snacks. This means you can enjoy a cool beverage or a quick bite whenever you want, without having to leave the comfort of your room.</p>
-                    </div>
-                </div>
-
-                <div class="xl:flex xl:px-10 p-4 mb-10 xl:p-10 lg:p-10 md:p-10 sm:p-10 bg-white">
-                    <div>
-                        <img class="xl:w-[4000px] xl:h-[450px] xl:mt-20 sm:mt-20 md:mt-16 lg:mt-10 mt-6" src="../images/coffe.jpg" alt="">
-                    </div>
-                    <div class="bg-orange-50 drop-shadow-xl xl:w-[4000px] xl:h-[600px] xl:p-10">
-                        <h3 class="text-4xl text-gray-700 xl:mt-36 p-2 font-serif">Coffee & Juice Bar</h3>
-                        <p class="mt-4 text-gray-500 p-2 font-mono">Coffee & Juice Bar for a Fresh Start to Your Day. The Wave Resorts Ltd has a coffee and juice bar on-site, offering a variety of beverages to jumpstart your mornings or give you a pick-me-up anytime during your stay.</p>
-                    </div>
-                </div>
-
-                <div class="xl:flex xl:px-10 p-4 mb-10 xl:p-10 lg:p-10 md:p-10 sm:p-10 bg-white">
-                    <div>
-                        <img class="xl:w-[4000px] xl:h-[450px] xl:mt-20 sm:mt-20 md:mt-16 lg:mt-10 mt-6" src="../images/cc camera.jpg" alt="">
-                    </div>
-                    <div class="bg-orange-50 drop-shadow-xl xl:w-[4000px] xl:h-[600px] xl:p-10">
-                        <h3 class="text-4xl text-gray-700 xl:mt-36 p-2 font-serif">24 CC Camera</h3>
-                        <p class="mt-4 text-gray-500 p-2 font-mono">24/7 security for a stress-free stay and feel safe & secure during your entire stay as your safety and security are our top priority. The Wave Resorts Ltd provides 24/7 security throughout the resort, so you can relax and enjoy your vacation with complete peace of mind.</p>
-                    </div>
-                </div>
-
             </div>
         </div>
     </section>
 
+
+    <section>
         <!-- map section start -->
-        <section>
-            <div class="relative w-full h-[600px]">
-                <iframe class="absolute top-0 left-0 w-full h-full"
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12080.73732861526!2d-74.0059418!3d40.7127847!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM40zMDA2JzEwLjAiTiA3NMKwMjUnMzcuNyJX!5e0!3m2!1sen!2sus!4v1648482801994!5m2!1sen!2sus"
-                    frameborder="0" style="border:0;" tabindex="0">
-                </iframe>
-            </div>
-            <!-- map section end -->
-        </section>
-    
-    </body>       
-    
-    <footer class="bg-gradient-to-r to-pink-300 from-orange-300 px-16 p-2  relative text-white ">
-        <div class="footer mt-6">
-            <img src="../images/logo.jpg" alt="" class="w-72">
+        <div class="relative w-full h-[600px]">
+            <iframe class="absolute top-0 left-0 w-full h-full"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12080.73732861526!2d-74.0059418!3d40.7127847!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM40zMDA2JzEwLjAiTiA3NMKwMjUnMzcuNyJX!5e0!3m2!1sen!2sus!4v1648482801994!5m2!1sen!2sus"
+                frameborder="0" style="border:0;" tabindex="0">
+            </iframe>
         </div>
-        <div class="border border-gray-300 mt-6"></div>
+        <!-- map section end -->
+    </section>
+</body>       
     
-        <div class="footer mt-6 font-mono ">
-            <div class="ml-8">
-                <h3 class="footer-title text-xl font-serif">Information</h3>
-                <a href="RefundPolicy.html"><div class="link-hover">Refund Policy</div></a>
-                <a href="PrivacyPolicy.html"><div class="link-hover">Privacy Policy</div></a>
-                <a href="ConditionOfUse.html"><div class="link-hover">Conditions of Use</div></a>
-                <a href="AboutUs.html"><div class="link-hover">about Us</div></a>
-                <a href="contactUs.html"><div class="link-hover">Contact Us</div></a>
-            </div>
-            
-            <!-- address part start -->
-            <div class="text-white">
-                <h3 class="footer-title text-xl font-serif">Address</h3>
-                <div class="flex gap-1">
-                    <div>
-                        <img class="w-4 mt-1" src="../images/location.png" alt="">
-                    </div>
-                    <div>
-                        <p class="link link-hover"> <a href="https://www.google.com/maps/search/02+DOHS,+Mirpur,+Dhaka./@23.8063052,90.310999,11z?entry=ttu">02 DOHS, <br>
-                            Mirpur, <br>
-                            Dhaka.</a>
-                        </p>
-                    </div>
+<footer class="bg-gradient-to-r to-pink-300 from-orange-300 px-16 p-2  relative text-white ">
+    <div class="footer mt-6">
+        <img src="../images/logo.jpg" alt="" class="w-72">
+    </div>
+    <div class="border border-gray-300 mt-6"></div>
+
+    <div class="footer mt-6 font-mono ">
+        <div class="ml-8">
+            <h3 class="footer-title text-xl font-serif">Information</h3>
+            <a href="RefundPolicy.html"><div class="link-hover">Refund Policy</div></a>
+            <a href="PrivacyPolicy.html"><div class="link-hover">Privacy Policy</div></a>
+            <a href="ConditionOfUse.html"><div class="link-hover">Conditions of Use</div></a>
+            <a href="AboutUs.html"><div class="link-hover">about Us</div></a>
+            <a href="contactUs.html"><div class="link-hover">Contact Us</div></a>
+        </div>
+        
+        <!-- address part start -->
+        <div class="text-white">
+            <h3 class="footer-title text-xl font-serif">Address</h3>
+            <div class="flex gap-1">
+                <div>
+                    <img class="w-4 mt-1" src="../images/location.png" alt="">
                 </div>
-                <div class="flex gap-1 items-center">
-                    <div>
-                        <img class="h-3" src="../images/mail footer.png" alt="">
-                    </div>
-                    <div>
-                        <h2 class="link link-hover"><a href="mailto:resort@gmail.com">wbc@gmail.com</a></h2>
-                    </div>
-                </div>
-                <div class="flex items-center">
-                    <div>
-                        <img class=" h-6" src="../images/call black of footer.png" alt="">
-                    </div>
-                    <div>
-                        <h2 class="link link-hover"><a href="">0112-2334455</a></h2>
-                    </div>
+                <div>
+                    <p class="link link-hover"> <a href="https://www.google.com/maps/search/02+DOHS,+Mirpur,+Dhaka./@23.8063052,90.310999,11z?entry=ttu">02 DOHS, <br>
+                        Mirpur, <br>
+                        Dhaka.</a>
+                    </p>
                 </div>
             </div>
-    
-             <!-- follow us part start -->
-             <div>
-                <h6 class="footer-title text-xl font-serif">Follow us</h6>
-                <div class="flex gap-4 justify-around mt-6">
-                    <div class="hover:bg-white bg-stone-300 rounded-full w-10 h-10 p-2">
-                        <a href="https://www.facebook.com/"><img class="w-8 object-cover transition duration-300 hover:scale-110" src="../images/fb.png" alt=""></a>
-                    </div>
-                    <div class="hover:bg-white bg-stone-300 rounded-full w-10 h-10 p-2">
-                        <a href="https://www.instagram.com/"><img class="w-8 object-cover transition duration-300 hover:scale-110" src="../images/instagram.png" alt=""></a>
-                    </div>
-                    <div class="hover:bg-white bg-stone-300 rounded-full w-10 h-10 p-2">
-                        <a href="https://x.com/home"><img class="w-12 object-cover transition duration-300 hover:scale-110" src="../images/twiter.png" alt=""></a>
-                    </div>
+            <div class="flex gap-1 items-center">
+                <div>
+                    <img class="h-3" src="../images/mail footer.png" alt="">
+                </div>
+                <div>
+                    <h2 class="link link-hover"><a href="mailto:resort@gmail.com">wbc@gmail.com</a></h2>
                 </div>
             </div>
-            <!-- follow us part end -->
-            <div>
-                <h3 class="footer-title text-xl">Download our app</h3>
-                <a href="https://play.google.com/store/apps?hl=en">
-                    <div class="flex items-center px-4 py-1 gap-2 bg-stone-400 border-solid border-2 rounded-lg hover:bg-gray-200">
-                        <div>
-                            <img src="../images/playstore.png" alt="">
-                        </div>
-                        <div>
-                            <p class="ml-4 text-gray-700">GET IT ON</p>
-                            <h3 class=" font-semibold text-xl text-gray-700">Google Play</h3>
-                        </div>
-                    </div>
-                </a>
+            <div class="flex items-center">
+                <div>
+                    <img class=" h-6" src="../images/call black of footer.png" alt="">
+                </div>
+                <div>
+                    <h2 class="link link-hover"><a href="">0112-2334455</a></h2>
+                </div>
             </div>
         </div>
-    
-        <div class="border mt-8 border-gray-300"></div>
-    
+
+         <!-- follow us part start -->
+         <div>
+            <h6 class="footer-title text-xl font-serif">Follow us</h6>
+            <div class="flex gap-4 justify-around mt-6">
+                <div class="hover:bg-white bg-stone-300 rounded-full w-10 h-10 p-2">
+                    <a href="https://www.facebook.com/"><img class="w-8 object-cover transition duration-300 hover:scale-110" src="../images/fb.png" alt=""></a>
+                </div>
+                <div class="hover:bg-white bg-stone-300 rounded-full w-10 h-10 p-2">
+                    <a href="https://www.instagram.com/"><img class="w-8 object-cover transition duration-300 hover:scale-110" src="../images/instagram.png" alt=""></a>
+                </div>
+                <div class="hover:bg-white bg-stone-300 rounded-full w-10 h-10 p-2">
+                    <a href="https://x.com/home"><img class="w-12 object-cover transition duration-300 hover:scale-110" src="../images/twiter.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <!-- follow us part end -->
         <div>
-            <p class="mt-6 text-center text-gray-300">@all rights reserved, Women's Beauty Care.2024</p>
+            <h3 class="footer-title text-xl">Download our app</h3>
+            <a href="https://play.google.com/store/apps?hl=en">
+                <div class="flex items-center px-4 py-1 gap-2 bg-stone-400 border-solid border-2 rounded-lg hover:bg-gray-200">
+                    <div>
+                        <img src="../images/playstore.png" alt="">
+                    </div>
+                    <div>
+                        <p class="ml-4 text-gray-700">GET IT ON</p>
+                        <h3 class=" font-semibold text-xl text-gray-700">Google Play</h3>
+                    </div>
+                </div>
+            </a>
         </div>
-    </footer>
-</body>
+    </div>
+
+    <div class="border mt-8 border-gray-300"></div>
+
+    <div>
+        <p class="mt-6 text-center text-gray-300">@all rights reserved, Women's Beauty Care.2024</p>
+    </div>
+</footer>
 </html>
