@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Women's Beauty Care</title>
-    <link rel="icon" type="image/x-icon" href="../images/logo.jpg">
+    <title>Women's Beauty Care Home</title>
+    <link rel="icon" type="image/x-icon" href="./images/logo.jpg">
 
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="banner style.css">
+    <link rel="stylesheet" href="HtmlFile/banner style.css">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -17,11 +17,13 @@
     <main class="Section_top">
         <!-- small device nav secetion start -->
         <nav class="md:hidden lg:hidden sm:hidden">
-            <div class="flex justify-between p-2">
-                <div class="w-44 mt-3 px-4">
-                    <img src="../images/logo.jpg" alt="">
-                </div>
-                <div class="mt-6">
+            <div class="flex justify-between items-center px-2 py-4">
+                <a href="index.html">
+                    <div class="w-44">
+                        <img src="./images/logo.jpg" alt="">
+                    </div>
+                </a>
+                <div>
                     <button class="btn" onclick="my_modal_5.showModal()">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
@@ -31,75 +33,66 @@
             </div>
 
             <dialog id="my_modal_5" class="modal modal-bottom ">
-                <div class="modal-box">
-                    <div class="cursor-none">
-                        <img class="rounded-lg" src="../images/logo.jpg" alt="">
-                    </div>
-                    <div class="md:flex justify-between md:px-24 text-gray-700">
-                        <div class="flex gap-16 mb-2 px-8 mt-2">
-                            <div class="flex gap-2 items-center">
-                                <div>
-                                    <img class="h-6" src="" alt="">
-                                </div>
-                                <div>
-                                    <h2 class="link link-hover hover:text-orange-400 font-mono"><a href="mailto:wbc@gmail.com">wbc@gmail.com</a></h2>
-                                </div>
+                <div class="modal-box bg-orange-50">
+                    <!-- <a href="/index.html">
+                        <div>
+                            <img class="rounded-lg w-48" src="../images/logo.jpg" alt="">
+                        </div>
+                    </a> -->
+                    <div class="mb-2 mt-2">
+                        <div class="flex gap-2 items-center">
+                            <div>
+                                <img class="w-5" src="./images/mail footer.png" alt="">
                             </div>
-                            <div class="flex gap-2 items-center">
-                                <div>
-                                    <img class="h-4" src="" alt="">
-                                </div>
-                                <div>
-                                    <h2 class="link link-hover  hover:text-orange-400 font-serif"><a href="">0112-2334455</a></h2>
-                                </div>
+                            <div>
+                                <h2 class="link link-hover hover:text-orange-400 font-mono"><a href="mailto:wbc.womensbeautycare@gmail.com
+                                    ">wbc.womensbeautycare@gmail.com
+                                </a></h2>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div>
+                                <img class="h-8" src="./images/call black of footer.png" alt="">
+                            </div>
+                            <div>
+                                <h2 class="link link-hover  hover:text-orange-400 font-serif"><a href="">01778549618
+                                </a></h2>
                             </div>
                         </div>
                     </div>
-            
+                
                     <div>
                         <div class="px-28 max-sm:mt-4 max-sm:mb-4">
-                            <ul class="font-semibold text-gray-700 text-center font-mono">
-                                <li class="hover:text-orange-400 link-hover"><a href="index.html">Home</a></li>
-                                <li class="hover:text-orange-400 link-hover max-sm:mt-2 max-sm:mb-2"><a href="service.html">Services</a></li>
-                                <li class="hover:text-orange-400 link-hover"><a href="facilities.html">Facilities</a></li>
-                                <li class="hover:text-orange-400 link-hover max-sm:mt-2 max-sm:mb-2"><a href="gallery.html">Gallery</a></li>
-                                <li class="hover:text-orange-400 link-hover"><a href="contactUs.html">Contact Us</a></li>
+                            <ul class="font-semibold text-xl text-gray-700 text-center font-mono">
+                                <li class="hover:text-orange-400 link-hover"><a href="index.html">HOME</a></li>
+                                <li class="hover:text-orange-400 link-hover max-sm:mt-2 max-sm:mb-2"><a href="HtmlFile/service.html">OUR SERVICES</a></li>
+                                <li class="hover:text-orange-400 link-hover"><a href="HtmlFile/facilities.html">FACILITIES</a></li>
+                                <li class="hover:text-orange-400 link-hover max-sm:mt-2 max-sm:mb-2"><a href="HtmlFile/gallery.html">GALLERY</a></li>
+                                <li class="hover:text-orange-400 link-hover"><a href="HtmlFile/contactUs.html">CONTACT US</a></li>
                             </ul>
                         </div>
-                        <div class="flex mt-2 font-semibold justify-around font-mono">
-                            <div class="link-hover hover:text-orange-400">
-                                <p><a href="login.html">Login</a></p>
-                            </div>
-                            <div class="link-hover hover:text-orange-400">
-                                <p><a href="singUp.html">Sing Up</a></p>
-                            </div>
-                        </div>
                     </div>
-
-                        <!-- map section start -->
-                    <section class="mt-10">
-                        <div class="relative w-full h-[600px]">
-                            <iframe class="absolute top-0 left-0 w-full h-full"
-                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12080.73732861526!2d-74.0059418!3d40.7127847!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM40zMDA2JzEwLjAiTiA3NMKwMjUnMzcuNyJX!5e0!3m2!1sen!2sus!4v1648482801994!5m2!1sen!2sus"
-                                frameborder="0" style="border:0;" tabindex="0">
-                            </iframe>
-                        </div>
-                        <!-- map section end -->
+                    <!-- map section start -->
+                    <section class="relative w-full h-[600px]">
+                        <iframe class="absolute top-0 left-0 w-full h-full" 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d913.0590908708755!2d90.41137762486899!3d23.73894925343207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8f556f9483f%3A0xb5d1b7d818820e72!2sNagar%20Shanti%20Nibash!5e0!3m2!1sen!2sbd!4v1727097463438!5m2!1sen!2sbd"  frameborder="0" style="border:0;" tabindex="0">
+                        </iframe>
                     </section>
+                    <!-- map section end -->
                     <footer class="bg-gradient-to-r to-pink-300 from-orange-300 px-16 p-2  relative text-white ">
-                        <div class="footer mt-6">
-                            <img src="../images/logo.jpg" alt="" class="w-72">
-                        </div>
+                        <a href="index.html">
+                            <div class="footer mt-6">
+                                <img src="./images/logo.jpg" alt="" class="w-64 rounded-xl">
+                            </div>
+                        </a>
                         <div class="border border-gray-300 mt-6"></div>
                     
                         <div class="footer mt-6 font-mono ">
-                            <div class="ml-8">
+                            <div class="xl:ml-8">
                                 <h3 class="footer-title text-xl font-serif">Information</h3>
-                                <a href="RefundPolicy.html"><div class="link-hover">Refund Policy</div></a>
-                                <a href="PrivacyPolicy.html"><div class="link-hover">Privacy Policy</div></a>
-                                <a href="ConditionOfUse.html"><div class="link-hover">Conditions of Use</div></a>
-                                <a href="AboutUs.html"><div class="link-hover">about Us</div></a>
-                                <a href="contactUs.html"><div class="link-hover">Contact Us</div></a>
+                                <a href="HtmlFile/service.html"><div class="link-hover">OUR SERVICES</div></a>
+                                <a href="HtmlFile/AboutUs.html"><div class="link-hover">ABOUT US</div></a>
+                                <a href="HtmlFile/contactUs.html"><div class="link-hover">CONTACT US</div></a>
                             </div>
                             
                             <!-- address part start -->
@@ -107,29 +100,30 @@
                                 <h3 class="footer-title text-xl font-serif">Address</h3>
                                 <div class="flex gap-1">
                                     <div>
-                                        <img class="w-4 mt-1" src="../images/location.png" alt="">
+                                        <img class="w-4 mt-1" src="./images/location.png" alt="">
                                     </div>
                                     <div>
-                                        <p class="link link-hover"> <a href="https://www.google.com/maps/search/02+DOHS,+Mirpur,+Dhaka./@23.8063052,90.310999,11z?entry=ttu">02 DOHS, <br>
-                                            Mirpur, <br>
-                                            Dhaka.</a>
+                                        <p class="link link-hover"> <a href="https://www.google.com/maps/search/153%2Fa,+pir+saheb+gali,+Shantinagar,+Dhaka-1000./@23.7383205,90.4084598,16z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI0MDkxOC4xIKXMDSoASAFQAw%3D%3D">153/a, pir saheb gali, <br> Shantinagar, <br> Dhaka-1000.
                                         </p>
                                     </div>
                                 </div>
                                 <div class="flex gap-1 items-center">
                                     <div>
-                                        <img class="h-3" src="../images/mail footer.png" alt="">
+                                        <img class="h-3" src="./images/mail footer.png" alt="">
                                     </div>
                                     <div>
-                                        <h2 class="link link-hover"><a href="mailto:resort@gmail.com">wbc@gmail.com</a></h2>
+                                        <h2 class="link link-hover"><a href="mailto:wbc.womensbeautycare@gmail.com
+                                            ">wbc.womensbeautycare@gmail.com
+                                        </a></h2>
                                     </div>
                                 </div>
                                 <div class="flex items-center">
                                     <div>
-                                        <img class=" h-6" src="../images/call black of footer.png" alt="">
+                                        <img class=" h-6" src="./images/call black of footer.png" alt="">
                                     </div>
                                     <div>
-                                        <h2 class="link link-hover"><a href="">0112-2334455</a></h2>
+                                        <h2 class="link link-hover"><a href="">01778549618
+                                        </a></h2>
                                     </div>
                                 </div>
                             </div>
@@ -138,38 +132,20 @@
                              <div>
                                 <h6 class="footer-title text-xl font-serif">Follow us</h6>
                                 <div class="flex gap-4 justify-around mt-6">
-                                    <div class="hover:bg-white bg-stone-300 rounded-full w-10 h-10 p-2">
-                                        <a href="https://www.facebook.com/"><img class="w-8 object-cover transition duration-300 hover:scale-110" src="../images/fb.png" alt=""></a>
+                                    <div class="hover:bg-white bg-stone-300 rounded-full w-14 h-14 p-2 ">
+                                        <a href="https://www.facebook.com/people/Womens-Beauty-Care-Parlour-Boutique/61565371510858/?mibextid=JRoKGi"><img class=" object-cover transition duration-300 hover:scale-110" src="./images/fb.png" alt=""></a>
                                     </div>
-                                    <div class="hover:bg-white bg-stone-300 rounded-full w-10 h-10 p-2">
-                                        <a href="https://www.instagram.com/"><img class="w-8 object-cover transition duration-300 hover:scale-110" src="../images/instagram.png" alt=""></a>
-                                    </div>
-                                    <div class="hover:bg-white bg-stone-300 rounded-full w-10 h-10 p-2">
-                                        <a href="https://x.com/home"><img class="w-12 object-cover transition duration-300 hover:scale-110" src="../images/twiter.png" alt=""></a>
+                                    <div class="hover:bg-white bg-stone-300 rounded-full w-14 h-14 p-2">
+                                        <a href="https://www.instagram.com/"><img class="object-cover transition duration-300 hover:scale-110" src="./images/instagram.png" alt=""></a>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- follow us part end -->
-                            <div>
-                                <h3 class="footer-title text-xl">Download our app</h3>
-                                <a href="https://play.google.com/store/apps?hl=en">
-                                    <div class="flex items-center px-4 py-1 gap-2 bg-stone-400 border-solid border-2 rounded-lg hover:bg-gray-200">
-                                        <div>
-                                            <img src="../images/playstore.png" alt="">
-                                        </div>
-                                        <div>
-                                            <p class="ml-4 text-gray-700">GET IT ON</p>
-                                            <h3 class=" font-semibold text-xl text-gray-700">Google Play</h3>
-                                        </div>
-                                    </div>
-                                </a>
                             </div>
                         </div>
                     
                         <div class="border mt-8 border-gray-300"></div>
                     
                         <div>
-                            <p class="mt-6 text-center text-gray-300">@all rights reserved, Women's Beauty Care.2024</p>
+                            <p class="mt-6 text-center text-gray-200 py-2">@all rights reserved, <a href="https://www.codezone71.com/" class="font-semibold text-xl text-white link-hover"> Code <span class="text-green-700"> Zone</span> <span class="text-red-700">71</span>.</p></a>
                         </div>
                     </footer>
 
@@ -181,10 +157,10 @@
                     </div>
                 </div>
             </dialog>
-            <div>
-                <h2 class="sm:text-4xl md:text-4xl lg:mt-16 lg:text-6xl xl:text-8xl text-white">Dive Into The  Realm <br> of Beauty </h2>
-                <a href="rooms.html">
-                    <button class="btn border-orange-300 text-white text-xl mt-4 bg-[rgba(0,0,0,0.4)] hover:border-white hover:text-black hover:bg-[rgba(0,0,0,0.0)] w-44 tooltip" data-tip="click Here">Discover More</button>
+            <div class="mt-20">
+                <h2 class="text-6xl text-white">Dive Into The  Realm <br> of Beauty </h2>
+                <a href="service.html">
+                    <button class="btn border-orange-300 text-white text-xl mt-4 bg-[rgba(0,0,0,0.4)] hover:border-white hover:text-black hover:bg-[rgba(0,0,0,0.0)] w-44">Discover More</button>
                 </a>
             </div>
 
@@ -193,67 +169,56 @@
 
         <!-- mid and large device nav bar start-->
         <nav class="max-sm:hidden">
-            <div class="flex justify-between text-white font-mono">
-                <div class="flex gap-16 px-8 mt-6 ">
+            <div class="flex justify-between px-6 text-white font-mono mt-4">
+                <div class="flex gap-16 px-8">
                     <div class="flex gap-2 items-center">
-                        <a href="mailto:wbc@gmail.com">
+                        <a href="mailto:wbc.womensbeautycare@gmail.com">
                             <div>
-                                <h2 class="link-hover">wbc@gmail.com</h2>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="flex items-center">
-                        <div>
-                            <img class="h-8" src="" alt="">
-                        </div>
-                        <a href="">
-                            <div>
-                                <h2 class="link-hover font-serif">0112-2334455</h2>
+                                <h2 class="link-hover">wbc.womensbeautycare@gmail.com
+                                </h2>
                             </div>
                         </a>
                     </div>
                 </div>
-                <div class="flex gap-16 px-8 mt-6 font-semibold">
-                    <a href="login.html">
+                <div class="flex items-center">
+                    <a href="">
                         <div>
-                            <p class="link-hover">Login</p>
-                        </div>
-                    </a>
-                   <a href="singUp.html">
-                        <div>
-                            <p class="link-hover">Sing Up</p>
+                            <h2 class="link-hover font-serif">01778549618
+                            </h2>
                         </div>
                     </a>
                 </div>
             </div>
         
-            <div class=" xl:flex lg:flex lg:justify-around md:mb-4 sm:mb-4">
-                <div class="cursor-not-allowed">
-                    <img class="sm:w-48 mt-8" src="../images/logo.jpg" alt="">
-                </div>
+            <div class=" xl:flex lg:flex lg:justify-around md:mb-4 sm:mb-4 items-center mt-6">
+                <a href="index.html">
+                    <div class="md:flex md:justify-center sm:flex sm:justify-center md:mb-16 sm:mb-16 md:mt-10 sm:mt-10">
+                        <img class="sm:w-48" src="./images/logo.jpg" alt="">
+                    </div>
+                </a>
                 <div>
-                    <ul class="lg:flex gap-16 font-semibold text-white xl:mt-20 sm:mt-6 md:mt-4 lg:mt-10 font-serif">
-                        <a class="link-hover" href="index.html"><li>Home</li></a>
-                        <a class="link-hover" href="service.html"><li>Service</li></a>
-                        <a class="link-hover" href="facilities.html"><li>Facilities</li></a>
-                        <a class="link-hover" href="gallery.html"><li>Gallery</li></a>
-                        <a class="link-hover" href="contactUs.html"><li>Contact Us</li></a>
+                    <ul class="lg:flex gap-16 font-semibold text-white  font-serif ">
+                        <a class="link-hover" href="index.html"><li>HOME</li></a>
+                        <a class="link-hover" href="HtmlFile/service.html"><li>OUR SERVICES</li></a>
+                        <a class="link-hover" href="HtmlFile/facilities.html"><li>FACILITIES</li></a>
+                        <a class="link-hover" href="HtmlFile/gallery.html"><li>GALLERY</li></a>
+                        <a class="link-hover" href="HtmlFile/contactUs.html"><li>CONTACT US</li></a>
                     </ul>
                 </div>
-                <div class="xl:mt-14 lg:mt-6 mt-4">
-                    <a href="rooms.html">
-                        <button class="btn border-orange-300 text-white bg-[rgba(0,0,0,0.2)]  hover:border-white hover:text-black hover:bg-[rgba(0,0,0,0.0)] tooltip" data-tip="click Here">Book Now</button>
+                <div class="">
+                    <a href="HtmlFile/service.html">
+                        <button class="btn border-orange-300 text-white bg-[rgba(0,0,0,0.2)]  hover:border-white hover:text-black hover:bg-[rgba(0,0,0,0.0)]">Book Now</button>
                     </a>
                 </div>
             </div>
             <div>
                 <h2 class="sm:text-4xl md:text-4xl lg:mt-16 lg:text-6xl xl:text-8xl text-white">Dive Into The  Realm <br> of Beauty </h2>
-                <a href="rooms.html">
-                <button class="btn border-orange-300 text-white text-lg mt-4 bg-[rgba(0,0,0,0.4)] hover:border-white hover:text-black hover:bg-[rgba(0,0,0,0.0)] w-44 tooltip" data-tip="click Here">Discover More</button></a>
+                <a href="HtmlFile/service.html">
+                <button class="btn border-orange-300 text-white text-lg mt-4 bg-[rgba(0,0,0,0.4)] hover:border-white hover:text-black hover:bg-[rgba(0,0,0,0.0)] w-44 ">Discover More</button></a>
             </div>
         </nav>
         <!-- mid and large device nav bar end-->
-         <!-- nav secetion end -->
+         <!-- nav secetion end -->                                                                                                      
     </main>
 
     <!-- abut-us section start -->
@@ -261,100 +226,28 @@
         <div class="xl:col-span-6 px-2">
             <p class="text-xl max-sm:text-center font-serif">ABOUT US</p>
             <h1 class="max-sm:text-2xl text-6xl max-sm:font-semibold font-mono mt-10 mb-10 max-sm:mt-4 max-sm:mb-3">MOST SAFE & RATED PARLOUR.</h1>
-            <P class="text-gray-500 font-mono">Welcome to <Span class="font-semibold text-gray-500">The Wave Resorts </Span> Ltd, the most safe and top-rated <span class="font-semibold text-gray-500">beach-view resort in cox’s bazar</span>. Experience quality rooms, unparalleled hotel services, and a gourmet food lounge. Our modern conference hall is perfect for hosting meetings and events. Experience oceanfront dining at its finest with the most authentic and fresh seafood and BBQ dishes at our sea-view restaurant. With stunning views of the sea, we offer a relaxing and luxurious stay for all guests. At <span class="font-semibold text-gray-500">The Wave Resorts</span> Ltd, your comfort and satisfaction are our top priorities. We take pride in offering attentive service, modern amenities, and a commitment to sustainability. Whether you’re seeking a romantic escape, a family adventure, or a corporate retreat, we’re here to ensure your stay is truly extraordinary</P>
+            <P class="text-gray-400 font-mono font-semibold">Welcome to <span class="font-bold text-gray-500"> Women's Beauty Care (WBC),</span> where beauty meets expertise. Founded in 2024, WBC is dedicated to providing high-quality beauty services that leave you feeling confident and rejuvenated. Our team of experienced professionals is passionate about enhancing your natural beauty and ensuring a personalized experience every time you visit. <br> At WBC, beauty is more than skin deep—it’s about empowerment, confidence, and self-expression. We’re here to make sure you feel like the best version of yourself, every time you visit us.
+            <br> <br>
+            <span class="font-bold text-gray-500">Visit us and experience the WBC difference!</span>    
+            </P>
         </div>
         <div class="col-span-6 mt-4">
-            <img class="h-full rounded-xl" src="../images/banner3.jpg" alt="">
+            <img class="h-full rounded-xl" src="./images/banner3.jpg" alt="">
         </div>
-        <div class="flex gap-20 mt-4 max-sm:gap-10 font-mono">
-            <div>
-                <div>
-                    <img src="" alt="">
-                </div>
-                <div>
-                    <p>Best Service</p>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <img src="" alt="">
-                </div>
-                <div>
-                    <p>Car Parking</p>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <img src="" alt="">
-                </div>
-                <div>
-                    <p>Food Lounge</p>
-                </div>
-            </div>
+        <div class="xl:flex md:flex lg:flex sm:flex text-center gap-4 mt-4 max-sm:gap-10 font-mono">
+            <a href="HtmlFile/facilities.html">
+                <button class="btn hover:border-orange-300 hover:text-white text-lg mt-4 hover:bg-[rgba(0,0,0,0.4)] border-gray-300 text-black bg-[rgba(0,0,0,0.0)] w-44 ">Best Service</button>
+            </a>
+            <a href="HtmlFile/facilities.html">
+                <button class="btn hover:border-orange-300 hover:text-white text-lg mt-4 hover:bg-[rgba(0,0,0,0.4)] border-gray-300 text-black bg-[rgba(0,0,0,0.0)] w-44 ">Car Parking</button>
+            </a>
+            <a href="HtmlFile/facilities.html">
+                <button class="btn hover:border-orange-300 hover:text-white text-lg mt-4 hover:bg-[rgba(0,0,0,0.4)] border-gray-300 text-black bg-[rgba(0,0,0,0.0)] w-44 ">Food Lounge</button>
+            </a>
         </div>
     </section>
     <!-- abut-us section end -->
 
-    <!-- its all connected section start -->
-    <section class="py-10 bg-orange-50">
-        <!-- its all connected part start -->
-        <div class="xl:text-center xl:px-16 px-4 text-gray-500">
-            <p class="font-semibold text-xl text-center font-mono">It’s all connected</p>
-            <h1 class="max-sm:text-2xl text-6xl max-sm:font-semibold font-mono mt-10 mb-10 max-sm:mt-4 max-sm:mb-3 text-gray-700">A FULLY INTEGRATED <br>EXPERIENCE</h1>
-            <p class="xl:px-10 font-mono">Imagine you wake up to the gentle sound of waves lapping at the shore, step onto your private balcony, and breathe in the fresh ocean air. Your day unfolds effortlessly at The Wave Resorts Ltd, a beach-view resort in Cox's Bazar where every detail is only considered to create a fully integrated experience. Enjoy <br> the convenience from refreshing breakfasts to high-speed Wi-Fi and beyond basics, The Wave Resorts Ltd. seamlessly integrates work and relaxation for a productive business retreat or an enjoyable vacation.</p>
-        </div>
-
-        <div class="mt-6">
-            <div class="hero min-h-screen" style="background-image: url(../images/spa.jpg);">
-                <div class="hero-overlay bg-opacity-50"></div>
-                <div class="hero-content text-neutral-content text-center">
-                    <div class="max-w-md">
-                        <div class="xl:flex sm:flex md:flex lg:flex gap-20 font-mono">
-                            <a href="facilities.html">
-                                <div>
-                                    <div>
-                                        <img src="" alt="">
-                                    </div>
-                                    <div class="hover:text-orange-500 hover:bg-white rounded-xl">
-                                        <p class="p-4 hover:font-semibold">Bridal</p>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="facilities.html">
-                                <div>
-                                    <div>
-                                        <img src="" alt="">
-                                    </div>
-                                    <div class="hover:text-orange-500 hover:bg-white rounded-xl">
-                                        <p class="p-4 hover:font-semibold">Massage</p>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="facilities.html">
-                                <div>
-                                    <div>
-                                        <img src="" alt="">
-                                    </div>
-                                    <div class="hover:text-orange-500 hover:bg-white rounded-xl">
-                                        <p class="p-4 hover:font-semibold">Facial</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- its all connected part end -->
-        <!-- A One Stop Destination start -->
-        <div class=" py-10 px-3 xl:px-36 xl:text-center">
-            <h2 class=" text-4xl text-gray-700 font-mono">A One Stop Destination</h2>
-            <p class="text-gray-700 mt-6 mb-6 xl:px-10 font-mono">Escape the ordinary and discover a world of possibilities at The Wave Resorts Ltd. We're not just a place to stay; we're your one-stop destination for  an unforgettable oceanic experience. The Wave Resorts Ltd. offers everything you need for a complete and fulfilling vacation, making it the perfect choice among Cox's Bazar hotels and resorts. We're here to ensure you experience the best of Cox's Bazar, all within the comfort and convenience  of our resort.</p>
-            <a href="service.html"><button class="border-b-2 border-gray-800 hover:rounded-lg hover:bg-gray-400 p-2 py-2 tooltip" data-tip="click Here">DISCOVER MORE</button></a>
-        </div>
-        <!-- A One Stop Destination end -->
-    </section>
-    <!-- its all connected section end -->
     <!-- Explore Moments Framed section start -->
     <section class="xl:py-10">
         <div>
@@ -368,37 +261,37 @@
                     <p class="mt-4 text-gray-500 p-2 font-mono">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus esse, vitae quos distinctio voluptates harum cum, tempore eius dolore, quo rerum corrupti tenetur. Assumenda dolorum qui sit ullam aliquam debitis nostrum dolore. Sint illo repudiandae sequi ipsa ut obcaecati perspiciatis minima eum accusantium numquam harum non, reprehenderit, omnis velit tenetur inventore temporibus recusandae optio. Deserunt, eveniet placeat commodi excepturi quos vero nam quod dolorem laborum ratione iure dignissimos nulla incidunt.</p>
                     <!-- button and daialog from daisy ui part start-->
                     <div class="sm:py-10 md:py-10 lg:py-10 px-2">
-                        <button class="border-b-2 border-gray-800 hover:rounded-lg hover:bg-gray-400 p-2 tooltip max-sm:hidden font-serif" onclick="my_modal_1.showModal()" data-tip="click Here">DISCOVER MORE</button>
+                        <button class="border-b-2 border-gray-800 hover:rounded-lg hover:bg-gray-400 p-2 max-sm:hidden font-serif" onclick="my_modal_1.showModal()">DISCOVER MORE</button>
                         <dialog id="my_modal_1" class="modal">
                             <div class="modal-box bg-orange-100">
                                 <div>
                                     <h2 class="text-4xl text-center text-gray-500 font-semibold font-mono mb-6">Our SPA</h2>
                                 </div>
                                 <div>
-                                    <img class="rounded-xl h-96 px-24" src="../images/spa1.jpg" alt="">
+                                    <img class="rounded-xl h-96 px-24" src="./images/spa1.jpg" alt="">
                                 </div>
                                 <div class="mt-6">
                                     <h3 class="text-4xl text-center text-gray-500 font-semibold font-mono">Ayurvedic Spa</h3>
                                     <p class="text-gray-700 mt-6 font-mono">Focuses on treatments based on Ayurvedic principles, using herbs, oils, and traditional massage techniques to restore balance in the body. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, sequi adipisci. Nulla sapiente distinctio magni perspiciatis pariatur cumque, et quis animi officiis totam ab assumenda eius veniam culpa neque, natus autem recusandae!</p>
-                                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 tooltip mt-4 font-serif" data-tip="click Here"><a href="ourSpa.html">Book This SPA</a></button>
+                                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 mt-4 font-serif"><a href="HtmlFile/ourSpa.html">Book This SPA</a></button>
                                 </div>
 
                                 <div>
-                                    <img class="rounded-xl mt-16 px-20" src="../images/spa2.jpeg" alt="">
+                                    <img class="rounded-xl mt-16 px-20" src="./images/spa2.jpeg" alt="">
                                 </div>
                                 <div class="mt-6">
                                     <h3 class="text-4xl text-center text-gray-500 font-semibold font-mono">Hammam Spa</h3>
                                     <p class="text-gray-700 mt-6 font-mono">Inspired by traditional Turkish and Middle Eastern bathing rituals, it includes steam rooms, exfoliating scrubs, and massages. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda magnam, reiciendis itaque culpa nobis consequatur iusto in illo illum nulla nisi. Officiis id aliquid laudantium assumenda saepe. Voluptate, quos odio!</p>
-                                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 tooltip mt-4 font-serif" data-tip="click Here"><a href="ourSpa.html">Book This SPA</a></button>
+                                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 mt-4 font-serif"><a href="HtmlFile/ourSpa.html">Book This SPA</a></button>
                                 </div>
 
                                 <div>
-                                    <img class="rounded-xl mt-16 px-20" src="../images/spa3.jpeg" alt="">
+                                    <img class="rounded-xl mt-16 px-20" src="./images/spa3.jpeg" alt="">
                                 </div>
                                 <div class="mt-6">
                                     <h3 class="text-4xl text-center text-gray-500 font-semibold font-mono">Detox Spa</h3>
                                     <p class="text-gray-700 mt-6 ">Specializes in body detoxification treatments like body wraps, juicing, cleansing diets, and lymphatic drainage massages. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo expedita dignissimos deleniti? Quaerat aspernatur recusandae quasi tempore incidunt facilis reiciendis, corrupti architecto harum delectus dolores adipisci doloribus obcaecati excepturi totam?</p>
-                                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 tooltip mt-4 font-serif" data-tip="click Here"><a href="ourSpa.html">Book This Spa</a></button>
+                                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 mt-4 font-serif"><a href="HtmlFile/ourSpa.html">Book This Spa</a></button>
                                 </div>
                             </div>
                             <form method="dialog" class="modal-backdrop">
@@ -409,40 +302,40 @@
                     <!-- button and daialog from daisy ui part end-->
                 </div>
                 <div>
-                    <img class="xl:w-[4000px] xl:h-[450px] sm:w-[4000px] sm:h-[300px] xl:mt-20 sm:mt-20 md:mt-16 lg:mt-10 mt-6" src="../images/spa.jpg" alt="">
+                    <img class="xl:w-[4000px] xl:h-[450px] sm:w-[4000px] sm:h-[300px] xl:mt-20 sm:mt-20 md:mt-16 lg:mt-10 mt-6" src="./images/spa.jpg" alt="">
                     <!-- small device button start -->
                     <div class="xl:hidden sm:hidden">
-                        <button class="border-b-2 border-gray-800 hover:rounded-lg hover:bg-gray-400 p-2 tooltip font-serif" onclick="my_modal_11.showModal()" data-tip="click Here">DISCOVER MORE</button>
+                        <button class="border-b-2 border-gray-800 hover:rounded-lg hover:bg-gray-400 p-2 font-serif" onclick="my_modal_11.showModal()">DISCOVER MORE</button>
                         <dialog id="my_modal_11" class="modal">
                             <div class="modal-box bg-orange-100">
                                 <div>
                                     <h2 class="text-4xl text-center text-gray-500 font-semibold font-mono mb-6">Our SPA</h2>
                                 </div>
                                 <div>
-                                    <img class="rounded-xl h-96 px-24" src="../images/spa1.jpg" alt="">
+                                    <img class="rounded-xl h-96 px-24" src="./images/spa1.jpg" alt="">
                                 </div>
                                 <div class="mt-6">
                                     <h3 class="text-4xl text-center text-gray-500 font-semibold font-mono">Ayurvedic Spa</h3>
                                     <p class="text-gray-700 mt-6 font-mono">Focuses on treatments based on Ayurvedic principles, using herbs, oils, and traditional massage techniques to restore balance in the body. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, sequi adipisci. Nulla sapiente distinctio magni perspiciatis pariatur cumque, et quis animi officiis totam ab assumenda eius veniam culpa neque, natus autem recusandae!</p>
-                                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 tooltip mt-4 font-serif" data-tip="click Here"><a href="ourSpa.html">Book This SPA</a></button>
+                                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 mt-4 font-serif"><a href="HtmlFile/ourSpa.html">Book This SPA</a></button>
                                 </div>
 
                                 <div>
-                                    <img class="rounded-xl mt-16 px-20" src="../images/spa2.jpeg" alt="">
+                                    <img class="rounded-xl mt-16 px-20" src="./images/spa2.jpeg" alt="">
                                 </div>
                                 <div class="mt-6">
                                     <h3 class="text-4xl text-center text-gray-500 font-semibold font-mono">Hammam Spa</h3>
                                     <p class="text-gray-700 mt-6 font-mono">Inspired by traditional Turkish and Middle Eastern bathing rituals, it includes steam rooms, exfoliating scrubs, and massages. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda magnam, reiciendis itaque culpa nobis consequatur iusto in illo illum nulla nisi. Officiis id aliquid laudantium assumenda saepe. Voluptate, quos odio!</p>
-                                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 tooltip mt-4 font-serif" data-tip="click Here"><a href="ourSpa.html">Book This SPA</a></button>
+                                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 mt-4 font-serif"><a href="HtmlFile/ourSpa.html">Book This SPA</a></button>
                                 </div>
 
                                 <div>
-                                    <img class="rounded-xl mt-16 px-20" src="../images/spa3.jpeg" alt="">
+                                    <img class="rounded-xl mt-16 px-20" src="./images/spa3.jpeg" alt="">
                                 </div>
                                 <div class="mt-6">
                                     <h3 class="text-4xl text-center text-gray-500 font-semibold font-mono">Detox Spa</h3>
                                     <p class="text-gray-700 mt-6 ">Specializes in body detoxification treatments like body wraps, juicing, cleansing diets, and lymphatic drainage massages. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo expedita dignissimos deleniti? Quaerat aspernatur recusandae quasi tempore incidunt facilis reiciendis, corrupti architecto harum delectus dolores adipisci doloribus obcaecati excepturi totam?</p>
-                                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 tooltip mt-4 font-serif" data-tip="click Here"><a href="ourSpa.html">Book This Spa</a></button>
+                                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2  mt-4 font-serif"><a href="HtmlFile/ourSpa.html">Book This Spa</a></button>
                                 </div>
                             </div>
                             <form method="dialog" class="modal-backdrop">
@@ -456,7 +349,7 @@
 
             <div class="sm:flex md:flex lg:flex xl:flex xl:px-10 mt-16 mb-16">
                 <div class=" max-sm:hidden">
-                    <img class="xl:w-[4000px] xl:h-[450px] sm:w-[4000px] sm:h-[300px] xl:mt-20 sm:mt-20 md:mt-16 lg:mt-10" src="../images/banner4.jpg" alt="">
+                    <img class="xl:w-[4000px] xl:h-[450px] sm:w-[4000px] sm:h-[300px] xl:mt-20 sm:mt-20 md:mt-16 lg:mt-10" src="./images/banner4.jpg" alt="">
                 </div>
                 <div class="bg-gray-50 xl:w-[4000px] xl:h-[600px] sm:w-[4000px]  max-sm:p-2">
                     <h3 class="text-4xl text-gray-700 sm xl:mt-36 sm:px-4 md:px-4 lg:px-4 p-2 font-serif">Our Makeup</h3>
@@ -464,37 +357,37 @@
 
                     <!-- button and daialog from daisy ui part start-->
                     <div class="sm:py-10 md:py-10 lg:py-10 px-2">
-                        <button class="border-b-2 border-gray-800 hover:rounded-lg hover:bg-gray-400 p-2 tooltip max-sm:hidden font-serif" onclick="my_modal_2.showModal()" data-tip="click Here">DISCOVER MORE</button>
+                        <button class="border-b-2 border-gray-800 hover:rounded-lg hover:bg-gray-400 p-2 max-sm:hidden font-serif" onclick="my_modal_2.showModal()">DISCOVER MORE</button>
                         <dialog id="my_modal_2" class="modal">
                             <div class="modal-box bg-orange-100">
                                 <div>
                                     <h2 class="text-4xl text-center text-gray-500 font-semibold font-mono mb-8">Our Makeup</h2>
                                 </div>
                                 <div>
-                                    <img class="rounded-xl h-96 px-24" src="../images/bried2.jpg" alt="">
+                                    <img class="rounded-xl h-96 px-24" src="./images/bried2.jpg" alt="">
                                 </div>
                                 <div class="mt-6">
                                     <h3 class="text-4xl text-center text-gray-500 font-semibold font-mono">Bridal Makeup</h3>
                                     <p class="text-gray-700 mt-6 font-mono">Specialized makeup for brides, focusing on long-lasting, radiant looks that are camera-friendly. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est nostrum corrupti at quod ipsum ex, ullam laborum placeat numquam itaque, consequuntur suscipit voluptate odio! Mollitia ea dolores eveniet doloremque molestiae atque amet officia maiores quibusdam, consequatur dicta voluptate culpa rerum sit dolor qui hic! Illum, esse alias quasi sed perspiciatis deleniti accusamus pariatur consectetur earum repudiandae in deserunt quia iure voluptas magnam? Unde ipsam earum accusamus voluptate dolorum quasi voluptatibus.</p>
-                                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 tooltip mt-4 font-serif" data-tip="click Here"><a href="ourMakeup.html">Book This Makeup </a></button>
+                                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2  mt-4 font-serif"><a href="HtmlFile/ourMakeup.html">Book This Makeup </a></button>
                                 </div>
 
                                 <div>
-                                    <img class="rounded-xl mt-16 px-24 max-sm:ml-10" src="../images/party makup.jpeg" alt="">
+                                    <img class="rounded-xl mt-16 px-24 max-sm:ml-10" src="./images/party makup.jpeg" alt="">
                                 </div>
                                 <div class="mt-6">
                                     <h3 class="text-4xl text-center text-gray-500 font-semibold font-mono">Party Makeup</h3>
                                     <p class="text-gray-700 mt-6 font-mono">Glamorous makeup for parties or special events, usually featuring bold eyes, contouring, and vibrant lip colors. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, doloribus eligendi cupiditate maxime architecto consequatur, itaque amet suscipit ex est iste ratione sit provident labore at ut qui perspiciatis? Delectus, voluptatum tenetur praesentium excepturi tempore fugit distinctio voluptatibus illum velit?</p>
-                                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 tooltip mt-4 font-serif" data-tip="click Here"><a href="ourMakeup.html">Book This Makeup</a></button>
+                                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 mt-4 font-serif"><a href="HtmlFile/ourMakeup.html">Book This Makeup</a></button>
                                 </div>
 
                                 <div>
-                                    <img class="rounded-xl mt-16 px-24" src="../images/airbrush makeup.jpeg" alt="">
+                                    <img class="rounded-xl mt-16 px-24" src="./images/airbrush makeup.jpeg" alt="">
                                 </div>
                                 <div class="mt-6">
                                     <h3 class="text-4xl text-center text-gray-500 font-semibold font-mono">Airbrush Makeup</h3>
                                     <p class="text-gray-700 mt-6 font-mono">A lightweight and long-lasting makeup technique where makeup is sprayed onto the skin using an airbrush, giving a smooth, even finish. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni nemo vero ipsum est nulla excepturi commodi vel nam unde hic ratione eligendi, libero possimus. Repellat sint modi error consequatur labore facilis atque harum eveniet vitae! Molestias veniam maxime corrupti iusto!</p>
-                                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 tooltip mt-4 font-serif" data-tip="click Here"><a href="ourMakeup.html">Book This Makeup</a></button>
+                                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2  mt-4 font-serif"><a href="HtmlFile/ourMakeup.html">Book This Makeup</a></button>
                                 </div>
                             </div>
                             <form method="dialog" class="modal-backdrop">
@@ -507,40 +400,40 @@
                 <div>
                     <!-- small device img and button start -->
                     <div class="xl:hidden sm:hidden md:hidden lg:hidden">
-                        <img class="xl:w-[4000px] xl:h-[450px] sm:w-[4000px] sm:h-[300px] xl:mt-20 sm:mt-20 md:mt-16 lg:mt-10" src="../images/banner4.jpg" alt="">
+                        <img class="xl:w-[4000px] xl:h-[450px] sm:w-[4000px] sm:h-[300px] xl:mt-20 sm:mt-20 md:mt-16 lg:mt-10" src="./images/banner4.jpg" alt="">
                     </div>
                     <div class="xl:hidden sm:hidden">
-                        <button class="border-b-2 border-gray-800 hover:rounded-lg hover:bg-gray-400 p-2 tooltip font-serif" onclick="my_modal_22.showModal()" data-tip="click Here">DISCOVER MORE</button>
+                        <button class="border-b-2 border-gray-800 hover:rounded-lg hover:bg-gray-400 p-2 font-serif" onclick="my_modal_22.showModal()">DISCOVER MORE</button>
                         <dialog id="my_modal_22" class="modal">
                             <div class="modal-box bg-orange-100">
                                 <div>
                                     <h2 class="text-4xl text-center text-gray-500 font-semibold font-mono mb-8">Our Makeup</h2>
                                 </div>
                                 <div>
-                                    <img class="rounded-xl h-96 px-24" src="../images/bried2.jpg" alt="">
+                                    <img class="rounded-xl h-96 px-24" src="./images/bried2.jpg" alt="">
                                 </div>
                                 <div class="mt-6">
                                     <h3 class="text-4xl text-center text-gray-500 font-semibold font-mono">Bridal Makeup</h3>
                                     <p class="text-gray-700 mt-6 font-mono">Specialized makeup for brides, focusing on long-lasting, radiant looks that are camera-friendly. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est nostrum corrupti at quod ipsum ex, ullam laborum placeat numquam itaque, consequuntur suscipit voluptate odio! Mollitia ea dolores eveniet doloremque molestiae atque amet officia maiores quibusdam, consequatur dicta voluptate culpa rerum sit dolor qui hic! Illum, esse alias quasi sed perspiciatis deleniti accusamus pariatur consectetur earum repudiandae in deserunt quia iure voluptas magnam? Unde ipsam earum accusamus voluptate dolorum quasi voluptatibus.</p>
-                                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 tooltip mt-4 font-serif" data-tip="click Here"><a href="ourMakeup.html">Book This Makeup</a></button>
+                                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 mt-4 font-serif"><a href="HtmlFile/ourMakeup.html">Book This Makeup</a></button>
                                 </div>
 
                                 <div>
-                                    <img class="rounded-xl mt-16 px-24 max-sm:ml-10" src="../images/party makup.jpeg" alt="">
+                                    <img class="rounded-xl mt-16 px-24 max-sm:ml-10" src="./images/party makup.jpeg" alt="">
                                 </div>
                                 <div class="mt-6">
                                     <h3 class="text-4xl text-center text-gray-500 font-semibold font-mono">Party Makeup</h3>
                                     <p class="text-gray-700 mt-6 font-mono">Glamorous makeup for parties or special events, usually featuring bold eyes, contouring, and vibrant lip colors. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, doloribus eligendi cupiditate maxime architecto consequatur, itaque amet suscipit ex est iste ratione sit provident labore at ut qui perspiciatis? Delectus, voluptatum tenetur praesentium excepturi tempore fugit distinctio voluptatibus illum velit?</p>
-                                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 tooltip mt-4 font-serif" data-tip="click Here"><a href="ourMakeup.html">Book This Makeup</a></button>
+                                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 mt-4 font-serif"><a href="HtmlFile/ourMakeup.html">Book This Makeup</a></button>
                                 </div>
 
                                 <div>
-                                    <img class="rounded-xl mt-16 px-24" src="../images/airbrush makeup.jpeg" alt="">
+                                    <img class="rounded-xl mt-16 px-24" src="./images/airbrush makeup.jpeg" alt="">
                                 </div>
                                 <div class="mt-6">
                                     <h3 class="text-4xl text-center text-gray-500 font-semibold font-mono">Airbrush Makeup</h3>
                                     <p class="text-gray-700 mt-6 font-mono">A lightweight and long-lasting makeup technique where makeup is sprayed onto the skin using an airbrush, giving a smooth, even finish. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni nemo vero ipsum est nulla excepturi commodi vel nam unde hic ratione eligendi, libero possimus. Repellat sint modi error consequatur labore facilis atque harum eveniet vitae! Molestias veniam maxime corrupti iusto!</p>
-                                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 tooltip mt-4 font-serif" data-tip="click Here"><a href="ourMakeup.html">Book This Makeup</a></button>
+                                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 mt-4 font-serif"><a href="HtmlFile/ourMakeup.html">Book This Makeup</a></button>
                                 </div>
                             </div>
                             <form method="dialog" class="modal-backdrop">
@@ -558,37 +451,37 @@
                     <p class="mt-4 text-gray-500 p-2 font-mono">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores amet quis repellendus? Eum possimus quaerat non. Accusantium quod doloremque eos deleniti vitae dolorem illum incidunt quibusdam sed id repellat, placeat sunt alias! Tenetur reiciendis officia nulla doloribus qui rem adipisci voluptates, omnis aliquam! Ad, ipsa quo doloribus nemo officiis reiciendis nihil molestiae odit. Modi et veritatis doloremque, earum quasi quod ea laboriosam dolores, assumenda aspernatur sed tempore officia a voluptates.</p>
                     <!-- button and daialog from daisy ui part start-->
                     <div class="sm:py-10 md:py-10 lg:py-10 px-2">
-                        <button class="border-b-2 border-gray-800 hover:rounded-lg hover:bg-gray-400 p-2 tooltip max-sm:hidden font-serif" onclick="my_modal_3.showModal()" data-tip="click Here">DISCOVER MORE</button>
+                        <button class="border-b-2 border-gray-800 hover:rounded-lg hover:bg-gray-400 p-2 max-sm:hidden font-serif" onclick="my_modal_3.showModal()">DISCOVER MORE</button>
                         <dialog id="my_modal_3" class="modal">
                             <div class="modal-box bg-orange-100">
                                 <div>
                                     <h2 class="text-4xl text-center text-gray-500 font-semibold font-mono mb-8">Hair Spa & Treatment</h2>
                                 </div>
                                 <div>
-                                    <img class="rounded-xl" src="../images/Deep Conditioning Hair Spa.jpg" alt="">
+                                    <img class="rounded-xl" src="./images/Deep Conditioning Hair Spa.jpg" alt="">
                                 </div>
                                 <div class="mt-6">
                                     <h3 class="text-4xl text-center text-gray-500 font-semibold font-mono">Deep Conditioning Hair Spa</h3>
                                     <p class="text-gray-700 mt-6 font-mono">A nourishing treatment that uses rich conditioners and oils to moisturize and repair dry, damaged, or brittle hair. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, impedit tempore sapiente ipsam obcaecati exercitationem non nesciunt ea repellat nisi.</p>
-                                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 tooltip mt-4 font-serif" data-tip="click Here"><a href="hairAndFaceTreatment.html">Book This</a></button>
+                                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2  mt-4 font-serif"><a href="HtmlFile/hairAndFaceTreatment.html">Book This</a></button>
                                 </div>
 
                                 <div>
-                                    <img class="rounded-xl mt-16" src="../images/Anti-Dandruff Hair Spa.jpeg" alt="">
+                                    <img class="rounded-xl mt-16" src="./images/Anti-Dandruff Hair Spa.jpeg" alt="">
                                 </div>
                                 <div class="mt-6">
                                     <h3 class="text-4xl text-center text-gray-500 font-semibold font-mono">Anti-Dandruff Hair Spa</h3>
                                     <p class="text-gray-700 mt-6 font-mono">Focuses on treating dandruff and scalp issues using medicated products, exfoliating scalp treatments, and deep conditioning. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum doloribus fugit temporibus est unde asperiores quo tenetur consequatur eligendi nostrum!</p>
-                                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 tooltip mt-4 font-serif" data-tip="click Here" ><a href="hairAndFaceTreatment.html">Book This</a></button>
+                                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 mt-4 font-serif"><a href="HtmlFile/hairAndFaceTreatment.html">Book This</a></button>
                                 </div>
 
                                 <div>
-                                    <img class="rounded-xl mt-16" src="../images/Scalp Treatment Spa.jpeg" alt="">
+                                    <img class="rounded-xl mt-16" src="./images/Scalp Treatment Spa.jpeg" alt="">
                                 </div>
                                 <div class="mt-6">
                                     <h3 class="text-4xl text-center text-gray-500 font-semibold font-mono">Scalp Treatment Spa</h3>
                                     <p class="text-gray-700 mt-6 font-mono">Targets scalp issues such as dryness, itchiness, and oil imbalance. Involves exfoliation, cleansing, and moisturizing treatments. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, porro, reprehenderit excepturi voluptatum similique facilis sed, hic recusandae quaerat animi perspiciatis tenetur in rem totam nisi quos nam assumenda nesciunt.</p>
-                                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 tooltip mt-4 font-serif" data-tip="click Here"><a href="hairAndFaceTreatment.html">Book This</a></button>
+                                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 mt-4 font-serif"><a href="HtmlFile/hairAndFaceTreatment.html">Book This</a></button>
                                 </div>
                             </div>
                             <form method="dialog" class="modal-backdrop">
@@ -598,42 +491,42 @@
                     </div>
                     <!-- button and daialog from daisy ui part end-->
                 </div>
-                <div>
-                    <img class="xl:w-[4000px] xl:h-[450px] sm:w-[4000px] sm:h-[300px] xl:mt-20 sm:mt-20 md:mt-16 lg:mt-10 mt-6" src="../images/Hair Spa & Treatment.jpg" alt="">
 
+                <div>
+                    <img class="xl:w-[4000px] xl:h-[450px] sm:w-[4000px] sm:h-[300px] xl:mt-20 sm:mt-20 md:mt-16 lg:mt-10 mt-6" src="./images/Hair Spa & Treatment.jpg" alt="">
                     <!-- small device button start -->
                     <div class="xl:hidden sm:hidden">
-                        <button class="border-b-2 border-gray-800 hover:rounded-lg hover:bg-gray-400 p-2 tooltip font-serif" onclick="my_modal_33.showModal()" data-tip="click Here">DISCOVER MORE</button>
+                        <button class="border-b-2 border-gray-800 hover:rounded-lg hover:bg-gray-400 p-2 font-serif" onclick="my_modal_33.showModal()">DISCOVER MORE</button>
                         <dialog id="my_modal_33" class="modal">
                             <div class="modal-box bg-orange-100">
                                 <div>
                                     <h2 class="text-4xl text-center text-gray-500 font-semibold font-mono mb-8">Hair Spa & Treatment</h2>
                                 </div>
                                 <div>
-                                    <img class="rounded-xl h-96 px-24" src="../images/Deep Conditioning Hair Spa.jpg" alt="">
+                                    <img class="rounded-xl h-96 px-24" src="./images/Deep Conditioning Hair Spa.jpg" alt="">
                                 </div>
                                 <div class="mt-6">
                                     <h3 class="text-4xl text-center text-gray-500 font-semibold font-mono">Deep Conditioning Hair Spa</h3>
                                     <p class="text-gray-700 mt-6 font-mono">A nourishing treatment that uses rich conditioners and oils to moisturize and repair dry, damaged, or brittle hair. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, impedit tempore sapiente ipsam obcaecati exercitationem non nesciunt ea repellat nisi.</p>
-                                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 tooltip mt-4 font-serif" data-tip="click Here"><a href="hairAndFaceTreatment.html">Book This</a></button>
+                                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2  mt-4 font-serif"><a href="HtmlFile/hairAndFaceTreatment.html">Book This</a></button>
                                 </div>
 
                                 <div>
-                                    <img class="rounded-xl mt-16 px-24" src="../images/Anti-Dandruff Hair Spa.jpeg" alt="">
+                                    <img class="rounded-xl mt-16 px-24" src="./images/Anti-Dandruff Hair Spa.jpeg" alt="">
                                 </div>
                                 <div class="mt-6">
                                     <h3 class="text-4xl text-center text-gray-500 font-semibold font-mono">Anti-Dandruff Hair Spa</h3>
                                     <p class="text-gray-700 mt-6 font-mono">Focuses on treating dandruff and scalp issues using medicated products, exfoliating scalp treatments, and deep conditioning. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum doloribus fugit temporibus est unde asperiores quo tenetur consequatur eligendi nostrum!</p>
-                                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 tooltip mt-4 font-serif" data-tip="click Here" ><a href="hairAndFaceTreatment.html">Book This</a></button>
+                                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 mt-4 font-serif" ><a href="HtmlFile/hairAndFaceTreatment.html">Book This</a></button>
                                 </div>
 
                                 <div>
-                                    <img class="rounded-xl mt-16 px-24" src="../images/Scalp Treatment Spa.jpeg" alt="">
+                                    <img class="rounded-xl mt-16 px-24" src="./images/Scalp Treatment Spa.jpeg" alt="">
                                 </div>
                                 <div class="mt-6">
                                     <h3 class="text-4xl text-center text-gray-500 font-semibold font-mono">Scalp Treatment Spa</h3>
                                     <p class="text-gray-700 mt-6 font-mono">Targets scalp issues such as dryness, itchiness, and oil imbalance. Involves exfoliation, cleansing, and moisturizing treatments. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, porro, reprehenderit excepturi voluptatum similique facilis sed, hic recusandae quaerat animi perspiciatis tenetur in rem totam nisi quos nam assumenda nesciunt.</p>
-                                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 tooltip mt-4 font-serif" data-tip="click Here"><a href="hairAndFaceTreatment.html">Book This</a></button>
+                                    <button class="bg-gray-200 border-b-2 border-gray-700 hover:rounded-lg hover:bg-gray-400 p-2 mt-4 font-serif"><a href="HtmlFile/hairAndFaceTreatment.html">Book This</a></button>
                                 </div>
                             </div>
                             <form method="dialog" class="modal-backdrop">
@@ -648,6 +541,7 @@
         </div>
     </section>
     <!-- Explore Moments Framed section end-->
+
     <!-- Questions we get asked the most section start-->
      <section class="bg-gray-200 py-28">
         <h1 class="xl:text-8xl text-4xl text-center text-gray-700 mb-16 font-mono">Questions We Get <br> Asked The Most</h1>
@@ -659,41 +553,32 @@
                 <!-- from daisyui (start)-->
                 <div class="collapse collapse-plus bg-base-200">
                     <input type="checkbox" />
-                    <div class="collapse-title text-xl font-medium font-mono">How close is the resort to the beach?</div>
+                    <div class="collapse-title text-xl font-medium font-mono">Who Is The Manager Of The Women's Beauty Care?</div>
                     <div class="collapse-content">
-                      <p class="bg-white p-2 rounded-lg font-serif">The resort is conveniently located just 25-30 meters away from the beach, offering easy access to the beautiful shoreline for our guests to enjoy.</p>
+                      <p class="bg-white p-2 rounded-lg font-serif">Miss Mita Is The Manager Of The Women's Beauty Care. She Is Available 24/7 Hour's</p>
+                    </div>
+                </div>
+                <div class="collapse collapse-plus bg-base-200">
+                    <input type="checkbox" />
+                    <div class="collapse-title text-xl font-medium font-mono">Is there Wi-Fi Available at The Women's Beauty Care?</div>
+                    <div class="collapse-content">
+                      <p class="bg-white p-2 rounded-lg font-serif">Yes, The Women's Beauty Care. offers high-speed Wi-Fi throughout the Parlour to keep you connected.</p>
                     </div>
                 </div>
 
                 <div class="collapse collapse-plus bg-base-200 mt-4 mb-4">
                     <input type="checkbox" />
-                    <div class="collapse-title text-xl font-medium font-mono">Is the beach swimmable, and are there lifeguards on duty?</div>
+                    <div class="collapse-title text-xl font-medium font-mono">Does The Women's Beauty Care. have parking available?</div>
                     <div class="collapse-content">
-                      <p class="bg-white p-2 rounded-lg font-serif">The beach offers refreshing swims, and lifeguards are on duty during peak hours for your safety.</p>
+                      <p class="bg-white p-2 rounded-lg font-serif">Yes, The Women's Beauty Care offers convenient and secure on-site parking for guests.</p>
                     </div>
                 </div>
 
                 <div class="collapse collapse-plus bg-base-200">
                     <input type="checkbox" />
-                    <div class="collapse-title text-xl font-medium font-mono">Is there Wi-Fi available at The Wave Resorts Ltd?</div>
+                    <div class="collapse-title text-xl font-medium font-mono">Who Is The Senior Beautician Of The Women's Beauty Care?</div>
                     <div class="collapse-content">
-                      <p class="bg-white p-2 rounded-lg font-serif">Yes, The Wave Resorts Ltd. offers high-speed Wi-Fi throughout the resort to keep you connected.</p>
-                    </div>
-                </div>
-
-                <div class="collapse collapse-plus bg-base-200 mt-4 mb-4">
-                    <input type="checkbox" />
-                    <div class="collapse-title text-xl font-medium font-mono">Does The Wave Resorts Ltd. have parking available?</div>
-                    <div class="collapse-content">
-                      <p class="bg-white p-2 rounded-lg font-serif">Yes, The Wave Resorts Ltd offers convenient and secure on-site parking for guests.</p>
-                    </div>
-                </div>
-
-                <div class="collapse collapse-plus bg-base-200">
-                    <input type="checkbox" />
-                    <div class="collapse-title text-xl font-medium font-mono">What is the check-in and check-out time at The Wave Resort Ltd.?</div>
-                    <div class="collapse-content">
-                      <p class="bg-white p-2 rounded-lg font-serif">The standard check-in time is at 2 pm and check-out time is at 12 pm. Early check-in and late check-out may be available upon request and subject to availability.</p>
+                      <p class="bg-white p-2 rounded-lg font-serif">Miss Mita Is Senior Beautician Of The Women's Beauty Care. She Is Available 24/7 Hour's</p>
                     </div>
                 </div>
                 <!-- from daisyui (start)-->
@@ -701,31 +586,31 @@
         </div>
      </section>
     <!-- Questions we get asked the most section end-->
+
     <!-- map section start -->
-    <div class="relative w-full h-[600px]">
-        <iframe class="absolute top-0 left-0 w-full h-full"
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12080.73732861526!2d-74.0059418!3d40.7127847!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM40zMDA2JzEwLjAiTiA3NMKwMjUnMzcuNyJX!5e0!3m2!1sen!2sus!4v1648482801994!5m2!1sen!2sus"
-            frameborder="0" style="border:0;" tabindex="0">
+    <section class="relative w-full h-[600px]">
+        <iframe class="absolute top-0 left-0 w-full h-full" 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d913.0590908708755!2d90.41137762486899!3d23.73894925343207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8f556f9483f%3A0xb5d1b7d818820e72!2sNagar%20Shanti%20Nibash!5e0!3m2!1sen!2sbd!4v1727097463438!5m2!1sen!2sbd"  frameborder="0" style="border:0;" tabindex="0">
         </iframe>
-    </div>
+    </section>
     <!-- map section end -->
 
 </body>       
 
 <footer class="bg-gradient-to-r to-pink-300 from-orange-300 px-16 p-2  relative text-white ">
-    <div class="footer mt-6">
-        <img src="../images/logo.jpg" alt="" class="w-72">
-    </div>
+    <a href="index.html">
+        <div class="footer mt-6">
+            <img src="./images/logo.jpg" alt="" class="w-72">
+        </div>
+    </a>
     <div class="border border-gray-300 mt-6"></div>
 
     <div class="footer mt-6 font-mono ">
-        <div class="ml-8">
+        <div class="xl:ml-8">
             <h3 class="footer-title text-xl font-serif">Information</h3>
-            <a href="RefundPolicy.html"><div class="link-hover">Refund Policy</div></a>
-            <a href="PrivacyPolicy.html"><div class="link-hover">Privacy Policy</div></a>
-            <a href="ConditionOfUse.html"><div class="link-hover">Conditions of Use</div></a>
-            <a href="AboutUs.html"><div class="link-hover">about Us</div></a>
-            <a href="contactUs.html"><div class="link-hover">Contact Us</div></a>
+            <a href="HtmlFile/service.html"><div class="link-hover">OUR SERVICES</div></a>
+            <a href="HtmlFile/AboutUs.html"><div class="link-hover">ABOUT US</div></a>
+            <a href="HtmlFile/contactUs.html"><div class="link-hover">CONTACT US</div></a>
         </div>
         
         <!-- address part start -->
@@ -733,29 +618,30 @@
             <h3 class="footer-title text-xl font-serif">Address</h3>
             <div class="flex gap-1">
                 <div>
-                    <img class="w-4 mt-1" src="../images/location.png" alt="">
+                    <img class="w-4 mt-1" src="./images/location.png" alt="">
                 </div>
                 <div>
-                    <p class="link link-hover"> <a href="https://www.google.com/maps/search/02+DOHS,+Mirpur,+Dhaka./@23.8063052,90.310999,11z?entry=ttu">02 DOHS, <br>
-                        Mirpur, <br>
-                        Dhaka.</a>
+                    <p class="link link-hover"> <a href="https://www.google.com/maps/search/153%2Fa,+pir+saheb+gali,+Shantinagar,+Dhaka-1000./@23.7383205,90.4084598,16z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI0MDkxOC4xIKXMDSoASAFQAw%3D%3D">153/a, pir saheb gali, <br> Shantinagar, <br> Dhaka-1000.
                     </p>
                 </div>
             </div>
             <div class="flex gap-1 items-center">
                 <div>
-                    <img class="h-3" src="../images/mail footer.png" alt="">
+                    <img class="w-4" src="./images/mail footer.png" alt="">
                 </div>
-                <div>
-                    <h2 class="link link-hover"><a href="mailto:resort@gmail.com">wbc@gmail.com</a></h2>
+                <div class="break-words max-sm:break-all">
+                    <h2 class="link link-hover"><a href="mailto:wbc.womensbeautycare@gmail.com
+                        ">wbc.womensbeautycare@gmail.com
+                    </a></h2>
                 </div>
             </div>
             <div class="flex items-center">
                 <div>
-                    <img class=" h-6" src="../images/call black of footer.png" alt="">
+                    <img class=" h-6" src="./images/call black of footer.png" alt="">
                 </div>
                 <div>
-                    <h2 class="link link-hover"><a href="">0112-2334455</a></h2>
+                    <h2 class="link link-hover"><a href="">01778549618
+                    </a></h2>
                 </div>
             </div>
         </div>
@@ -764,38 +650,20 @@
          <div>
             <h6 class="footer-title text-xl font-serif">Follow us</h6>
             <div class="flex gap-4 justify-around mt-6">
-                <div class="hover:bg-white bg-stone-300 rounded-full w-10 h-10 p-2">
-                    <a href="https://www.facebook.com/"><img class="w-8 object-cover transition duration-300 hover:scale-110" src="../images/fb.png" alt=""></a>
+                <div class="hover:bg-white bg-stone-300 rounded-full w-14 h-14 p-2 ">
+                    <a href="https://www.facebook.com/people/Womens-Beauty-Care-Parlour-Boutique/61565371510858/?mibextid=JRoKGi"><img class=" object-cover transition duration-300 hover:scale-110" src="./images/fb.png" alt=""></a>
                 </div>
-                <div class="hover:bg-white bg-stone-300 rounded-full w-10 h-10 p-2">
-                    <a href="https://www.instagram.com/"><img class="w-8 object-cover transition duration-300 hover:scale-110" src="../images/instagram.png" alt=""></a>
-                </div>
-                <div class="hover:bg-white bg-stone-300 rounded-full w-10 h-10 p-2">
-                    <a href="https://x.com/home"><img class="w-12 object-cover transition duration-300 hover:scale-110" src="../images/twiter.png" alt=""></a>
+                <div class="hover:bg-white bg-stone-300 rounded-full w-14 h-14 p-2">
+                    <a href="https://www.instagram.com/"><img class="object-cover transition duration-300 hover:scale-110" src="./images/instagram.png" alt=""></a>
                 </div>
             </div>
-        </div>
-        <!-- follow us part end -->
-        <div>
-            <h3 class="footer-title text-xl">Download our app</h3>
-            <a href="https://play.google.com/store/apps?hl=en">
-                <div class="flex items-center px-4 py-1 gap-2 bg-stone-400 border-solid border-2 rounded-lg hover:bg-gray-200">
-                    <div>
-                        <img src="../images/playstore.png" alt="">
-                    </div>
-                    <div>
-                        <p class="ml-4 text-gray-700">GET IT ON</p>
-                        <h3 class=" font-semibold text-xl text-gray-700">Google Play</h3>
-                    </div>
-                </div>
-            </a>
         </div>
     </div>
 
     <div class="border mt-8 border-gray-300"></div>
 
     <div>
-        <p class="mt-6 text-center text-gray-300">@all rights reserved, Women's Beauty Care.2024</p>
+        <p class="mt-6 text-center text-gray-200 py-2">@all rights reserved 2024, <a href="https://www.codezone71.com/" class="font-semibold text-xl text-white link-hover"> Code <span class="text-green-700"> Zone</span> <span class="text-red-700">71</span>.</a> <br> <a href="https://rakib1808.github.io/webdeveloper-porttfolio/">(RH)</a></p>
     </div>
 </footer>
 </html>

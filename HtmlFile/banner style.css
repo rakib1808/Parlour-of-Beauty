@@ -22,26 +22,26 @@ body,html{
 @keyframes change{
     0%
     {
-        background-image: url(../images/banner1.jpg);
+        background-image: url(../images/bannner1.jpg);
     }
     20%
     {
-        background-image: url(../images/banner2.jpg);
+        background-image: url(../images/Bannner2.jpg);
     }
     40%
     {
-        background-image: url(../images/banner3.jpg);
+        background-image: url(../images/bannner3.jpg);
     }
     60%
     {
-        background-image: url(../images/banner4.jpg);
+        background-image: url(../images/Bannner4.jpg);
     }
     80%
     {
-        background-image: url(../images/banner5.jpg);
+        background-image: url(../images/bannner5.jpg);
     }
     100%
     {
-        background-image: url(../images/banner1.jpg);
+        background-image: url(../images/bannner1.jpg);
     }
 }
